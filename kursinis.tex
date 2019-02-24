@@ -1,0 +1,91 @@
+\documentclass{VUMIFPSkursinis}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{sectsty}
+
+\usepackage{enumitem}
+%PAKEISTA, tarpai tarp sąrašo elementų
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\allsectionsfont{\centering}
+% Titulinio aprašas
+\university{Vilniaus universitetas}
+\faculty{Matematikos ir informatikos fakultetas}
+\department{Programų sistemų katedra}
+\papertype{Programų sistemų inžinerijos I laboratorinis darbas}
+\title{Internetinis aukcionas}
+\titleineng{Digital Auction}
+\status{2 kurso 4 grupės studentai}
+\author{Andrejus Voitovas}
+\secondauthor{Eglė Puodžiūnaitė}
+\thirdauthor{Kasparas Kralikas}
+\fourthauthor{Ieva Vizgirdaitė} % Pridėti antrą autorių
+\supervisor{asist. dr. Vytautas Valaitis}
+\date{Vilnius – \the\year}
+
+% Nustatymai
+% \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
+
+\begin{document}
+% PAKEISTA
+\maketitle
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{2}
+\sectionnonum{ANOTACIJA}
+Anotacija?
+\newpage
+%TURINYS
+\tableofcontents
+
+\sectionnonum{ĮVADAS}
+Ivadas?
+\newpage
+\section{REIKALAVIMAI}
+Andrius, Egle
+\newpage
+\section{STRUKTŪRINIS DALYKINĖS SRITIES MODELIS}
+Kasparas
+\newpage
+\section{UŽDUOTYS}
+Šioje dokumento dalyje yra pateikiamos sistemos atliekamos užduotys  (\ref{fig:usecase} pav.) Pateikiamas pagrindinis scenarijus ir alternatyvūs.\\
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/UseCaseDiagram.png}
+\label{fig:usecase}
+\caption{Sistemoje atliekamos užduotys}
+\end{figure}
+
+\subsection{Naudotojo atliekamos užduotys}
+Šiame skyrelyje išskiriamos visos sistemos naudotojo užduotys (\ref{fig:usercd} pav.), jas aprašant pateikiamas ne tik pagrindinis scenarijus, bet ir alternatyvūs. Taip pat atliekama robastiškumo analizė kiekvienai užduočiai.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/userusecased.png}
+\label{fig:usercd}
+\caption{Naudotojo atliekamos užduotys}
+\end{figure}
+
+\subsubsection{Užduotis - Registruotis}
+Skyriuje pateikiamas užduoties registruotis aprašymas. Pateikiama užduoties robastiškumo analizės diagrama.\\
+\textbf{Užduotis:}  Registruotis \\
+\textbf{Scenarijus:} Naudotojas prisijungimo lange paspaudžia mygtuką registruotis. Sistema atidaro registracijos langą. Naudotojas suveda prisijungimo vardą, slaptažodį  \\
+\textbf{Alternatyvūs scenarijai:} \\
+\textbf{Nuoroda į reikalavimą: } 
+
+
+\newpage
+
+\sectionnonum{REZULTATAI}
+\end{document}

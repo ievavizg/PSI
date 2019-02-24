@@ -1,0 +1,1310 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.30)  24 FEB 2019 13:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**kursinis.tex
+(./kursinis.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./VUMIFPSkursinis.cls
+Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./LTPlius.sty
+Package: LTPlius 2014/12/24 1.4.0 Lithuanian language additions
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2018/04/07 v1.43 Alternative to Babel for XeLaTeX and LuaL
+aTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count88
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count89
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/03/05 L3 programming layer (code)
+\c_max_int=\count90
+\l_tmpa_int=\count91
+\l_tmpb_int=\count92
+\g_tmpa_int=\count93
+\g_tmpb_int=\count94
+\g__intarray_font_int=\count95
+\g__prg_map_int=\count96
+\c_log_iow=\count97
+\l_iow_line_count_int=\count98
+\l__iow_line_target_int=\count99
+\l__iow_one_indent_int=\count100
+\l__iow_indent_int=\count101
+\c_zero_dim=\dimen103
+\c_max_dim=\dimen104
+\l_tmpa_dim=\dimen105
+\l_tmpb_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+\c_zero_skip=\skip43
+\c_max_skip=\skip44
+\l_tmpa_skip=\skip45
+\l_tmpb_skip=\skip46
+\g_tmpa_skip=\skip47
+\g_tmpb_skip=\skip48
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count102
+\c__fp_leading_shift_int=\count103
+\c__fp_middle_shift_int=\count104
+\c__fp_trailing_shift_int=\count105
+\c__fp_big_leading_shift_int=\count106
+\c__fp_big_middle_shift_int=\count107
+\c__fp_big_trailing_shift_int=\count108
+\c__fp_Bigg_leading_shift_int=\count109
+\c__fp_Bigg_middle_shift_int=\count110
+\c__fp_Bigg_trailing_shift_int=\count111
+\l__sort_length_int=\count112
+\l__sort_min_int=\count113
+\l__sort_top_int=\count114
+\l__sort_max_int=\count115
+\l__sort_true_max_int=\count116
+\l__sort_block_int=\count117
+\l__sort_begin_int=\count118
+\l__sort_end_int=\count119
+\l__sort_A_int=\count120
+\l__sort_B_int=\count121
+\l__sort_C_int=\count122
+\l__tl_build_start_index_int=\count123
+\l__tl_build_index_int=\count124
+\l__tl_analysis_normal_int=\count125
+\l__tl_analysis_index_int=\count126
+\l__tl_analysis_nesting_int=\count127
+\l__tl_analysis_type_int=\count128
+\l__regex_internal_a_int=\count129
+\l__regex_internal_b_int=\count130
+\l__regex_internal_c_int=\count131
+\l__regex_balance_int=\count132
+\l__regex_group_level_int=\count133
+\l__regex_mode_int=\count134
+\c__regex_cs_in_class_mode_int=\count135
+\c__regex_cs_mode_int=\count136
+\l__regex_catcodes_int=\count137
+\l__regex_default_catcodes_int=\count138
+\c__regex_catcode_L_int=\count139
+\c__regex_catcode_O_int=\count140
+\c__regex_catcode_A_int=\count141
+\c__regex_all_catcodes_int=\count142
+\l__regex_show_lines_int=\count143
+\l__regex_min_state_int=\count144
+\l__regex_max_state_int=\count145
+\l__regex_left_state_int=\count146
+\l__regex_right_state_int=\count147
+\l__regex_capturing_group_int=\count148
+\l__regex_min_pos_int=\count149
+\l__regex_max_pos_int=\count150
+\l__regex_curr_pos_int=\count151
+\l__regex_start_pos_int=\count152
+\l__regex_success_pos_int=\count153
+\l__regex_curr_char_int=\count154
+\l__regex_curr_catcode_int=\count155
+\l__regex_last_char_int=\count156
+\l__regex_case_changed_char_int=\count157
+\l__regex_curr_state_int=\count158
+\l__regex_step_int=\count159
+\l__regex_min_active_int=\count160
+\l__regex_max_active_int=\count161
+\l__regex_replacement_csnames_int=\count162
+\l__regex_match_count_int=\count163
+\l__regex_min_submatch_int=\count164
+\l__regex_submatch_int=\count165
+\l__regex_zeroth_submatch_int=\count166
+\g__regex_trace_regex_int=\count167
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+\l__box_top_dim=\dimen109
+\l__box_bottom_dim=\dimen110
+\l__box_left_dim=\dimen111
+\l__box_right_dim=\dimen112
+\l__box_top_new_dim=\dimen113
+\l__box_bottom_new_dim=\dimen114
+\l__box_left_new_dim=\dimen115
+\l__box_right_new_dim=\dimen116
+\l__box_internal_box=\box31
+\l__coffin_internal_box=\box32
+\l__coffin_internal_dim=\dimen117
+\l__coffin_offset_x_dim=\dimen118
+\l__coffin_offset_y_dim=\dimen119
+\l__coffin_x_dim=\dimen120
+\l__coffin_y_dim=\dimen121
+\l__coffin_x_prime_dim=\dimen122
+\l__coffin_y_prime_dim=\dimen123
+\c_empty_coffin=\box33
+\l__coffin_aligned_coffin=\box34
+\l__coffin_aligned_internal_coffin=\box35
+\l_tmpa_coffin=\box36
+\l_tmpb_coffin=\box37
+\l__coffin_display_coffin=\box38
+\l__coffin_display_coord_coffin=\box39
+\l__coffin_display_pole_coffin=\box40
+\l__coffin_display_offset_dim=\dimen124
+\l__coffin_display_x_dim=\dimen125
+\l__coffin_display_y_dim=\dimen126
+\l__coffin_bounding_shift_dim=\dimen127
+\l__coffin_left_corner_dim=\dimen128
+\l__coffin_right_corner_dim=\dimen129
+\l__coffin_bottom_corner_dim=\dimen130
+\l__coffin_top_corner_dim=\dimen131
+\l__coffin_scaled_total_height_dim=\dimen132
+\l__coffin_scaled_width_dim=\dimen133
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count168
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count169
+\g__xparse_grabber_int=\count170
+\l__xparse_m_args_int=\count171
+\l__xparse_mandatory_args_int=\count172
+\l__xparse_v_nesting_int=\count173
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count174
+\l__fontspec_language_int=\count175
+\l__fontspec_strnum_int=\count176
+\l__fontspec_tmp_int=\count177
+\l__fontspec_em_int=\count178
+\l__fontspec_emdef_int=\count179
+\l__fontspec_strong_int=\count180
+\l__fontspec_strongdef_int=\count181
+\l__fontspec_tmpa_dim=\dimen134
+\l__fontspec_tmpb_dim=\dimen135
+\l__fontspec_tmpc_dim=\dimen136
+\g__file_internal_ior=\read1
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 598.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 610.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 622.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 626.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3693.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3699.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+.................................................
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3891.
+LaTeX Info: Redefining \slshape on input line 3896.
+LaTeX Info: Redefining \scshape on input line 3901.
+LaTeX Info: Redefining \upshape on input line 3906.
+LaTeX Info: Redefining \em on input line 3936.
+LaTeX Info: Redefining \emph on input line 3961.
+LaTeX Info: Redefining \- on input line 4015.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 4110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 4114.
+.................................................
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\xpg@normalclass=\XeTeXcharclass1
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polyglossia/gloss-lithuanian.ldf
+File: gloss-lithuanian.ldf polyglossia: module for lithuanian
+)
+Package polyglossia Info: Default language is lithuanian.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+\c@ContinuedFloat=\count182
+))
+\g__fontspec_family_texgyretermes_int=\count183
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'texgyretermes(0)' created for font 'texgyretermes' with options
+. [Ligatures=TeX,Ligatures=TeX,Extension=.otf,UprightFont=
+. *-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[texgyretermes-regular.otf]/OT:script=latn;language=DFLT;mapping=tex-text
+;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"[texgyretermes-regular.otf]/OT:script=latn;language=DFLT;+smcp;mapping=te
+x-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"[texgyretermes-bold.otf]/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->"[texgyretermes-bold.otf]/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
+ext;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"[texgyretermes-italic.otf]/OT:script=latn;language=DFLT;mapping=tex-text;
+"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"[texgyretermes-italic.otf]/OT:script=latn;language=DFLT;+smcp;mapping=tex
+-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"[texgyretermes-bolditalic.otf]/OT:script=latn;language=DFLT;mapping=tex-t
+ext;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"[texgyretermes-bolditalic.otf]/OT:script=latn;language=DFLT;+smcp;mapping
+=tex-text;"
+.................................................
+LaTeX Info: Redefining \rmfamily on input line 28.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip49
+\cftbeforetoctitleskip=\skip50
+\cftaftertoctitleskip=\skip51
+\cftbeforepartskip=\skip52
+\cftpartnumwidth=\skip53
+\cftpartindent=\skip54
+\cftbeforesecskip=\skip55
+\cftsecindent=\skip56
+\cftsecnumwidth=\skip57
+\cftbeforesubsecskip=\skip58
+\cftsubsecindent=\skip59
+\cftsubsecnumwidth=\skip60
+\cftbeforesubsubsecskip=\skip61
+\cftsubsubsecindent=\skip62
+\cftsubsubsecnumwidth=\skip63
+\cftbeforeparaskip=\skip64
+\cftparaindent=\skip65
+\cftparanumwidth=\skip66
+\cftbeforesubparaskip=\skip67
+\cftsubparaindent=\skip68
+\cftsubparanumwidth=\skip69
+\cftbeforeloftitleskip=\skip70
+\cftafterloftitleskip=\skip71
+\cftbeforefigskip=\skip72
+\cftfigindent=\skip73
+\cftfignumwidth=\skip74
+\c@lofdepth=\count187
+\c@lotdepth=\count188
+\cftbeforelottitleskip=\skip75
+\cftafterlottitleskip=\skip76
+\cftbeforetabskip=\skip77
+\cfttabindent=\skip78
+\cfttabnumwidth=\skip79
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip80
+\f@nch@O@elh=\skip81
+\f@nch@O@erh=\skip82
+\f@nch@O@olh=\skip83
+\f@nch@O@orh=\skip84
+\f@nch@O@elf=\skip85
+\f@nch@O@erf=\skip86
+\f@nch@O@olf=\skip87
+\f@nch@O@orf=\skip88
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
+sages
+\sl@Save=\count189
+\sl@StateNumber=\count190
+\sl@MessageCount=\count191
+\sl@Casualties=\count192
+\sl@Filter=\toks17
+\sl@Message=\toks18
+\sl@UnexpandedMessage=\toks19
+\sl@Mess@ge=\toks20
+\sl@WarningCount=\count193
+\sl@WarningNumber=\count194
+\sl@WarningCasualties=\count195
+\sl@TempBOW=\toks21
+\sl@BankOfWarnings=\toks22
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count196
+\sl@ErrorNumber=\count197
+\sl@ErrorCasualties=\count198
+\sl@TempBOE=\toks23
+\sl@BankOfErrors=\toks24
+LaTeX Info: Redefining \GenericError on input line 601.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count199
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count266
+\decimalpart=\count267
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count268
+\c@listtotal=\count269
+\c@listcount=\count270
+\c@liststart=\count271
+\c@liststop=\count272
+\c@citecount=\count273
+\c@citetotal=\count274
+\c@multicitecount=\count275
+\c@multicitetotal=\count276
+\c@instcount=\count277
+\c@maxnames=\count278
+\c@minnames=\count279
+\c@maxitems=\count280
+\c@minitems=\count281
+\c@citecounter=\count282
+\c@savedcitecounter=\count283
+\c@uniquelist=\count284
+\c@uniquename=\count285
+\c@refsection=\count286
+\c@refsegment=\count287
+\c@maxextratitle=\count288
+\c@maxextratitleyear=\count289
+\c@maxextradate=\count290
+\c@maxextraalpha=\count291
+\c@abbrvpenalty=\count292
+\c@highnamepenalty=\count293
+\c@lownamepenalty=\count294
+\c@maxparens=\count295
+\c@parenlevel=\count296
+\blx@tempcnta=\count297
+\blx@tempcntb=\count298
+\blx@tempcntc=\count299
+\blx@maxsection=\count300
+\blx@maxsegment@0=\count301
+\blx@notetype=\count302
+\blx@parenlevel@text=\count303
+\blx@parenlevel@foot=\count304
+\blx@sectionciteorder@0=\count305
+\labelnumberwidth=\skip89
+\labelalphawidth=\skip90
+\biblabelsep=\skip91
+\bibitemsep=\skip92
+\bibnamesep=\skip93
+\bibinitsep=\skip94
+\bibparsep=\skip95
+\bibhang=\skip96
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count306
+\c@maxcomprange=\count307
+\c@mincompwidth=\count308
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'trad-alpha.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count309
+\c@savedafterword=\count310
+\c@annotator=\count311
+\c@savedannotator=\count312
+\c@author=\count313
+\c@savedauthor=\count314
+\c@bookauthor=\count315
+\c@savedbookauthor=\count316
+\c@commentator=\count317
+\c@savedcommentator=\count318
+\c@editor=\count319
+\c@savededitor=\count320
+\c@editora=\count321
+\c@savededitora=\count322
+\c@editorb=\count323
+\c@savededitorb=\count324
+\c@editorc=\count325
+\c@savededitorc=\count326
+\c@foreword=\count327
+\c@savedforeword=\count328
+\c@holder=\count329
+\c@savedholder=\count330
+\c@introduction=\count331
+\c@savedintroduction=\count332
+\c@namea=\count333
+\c@savednamea=\count334
+\c@nameb=\count335
+\c@savednameb=\count336
+\c@namec=\count337
+\c@savednamec=\count338
+\c@translator=\count339
+\c@savedtranslator=\count340
+\c@shortauthor=\count341
+\c@savedshortauthor=\count342
+\c@shorteditor=\count343
+\c@savedshorteditor=\count344
+\c@labelname=\count345
+\c@savedlabelname=\count346
+\c@institution=\count347
+\c@savedinstitution=\count348
+\c@lista=\count349
+\c@savedlista=\count350
+\c@listb=\count351
+\c@savedlistb=\count352
+\c@listc=\count353
+\c@savedlistc=\count354
+\c@listd=\count355
+\c@savedlistd=\count356
+\c@liste=\count357
+\c@savedliste=\count358
+\c@listf=\count359
+\c@savedlistf=\count360
+\c@location=\count361
+\c@savedlocation=\count362
+\c@organization=\count363
+\c@savedorganization=\count364
+\c@origlocation=\count365
+\c@savedoriglocation=\count366
+\c@origpublisher=\count367
+\c@savedorigpublisher=\count368
+\c@publisher=\count369
+\c@savedpublisher=\count370
+\c@language=\count371
+\c@savedlanguage=\count372
+\c@origlanguage=\count373
+\c@savedoriglanguage=\count374
+\c@pageref=\count375
+\c@savedpageref=\count376
+\shorthandwidth=\skip97
+\shortjournalwidth=\skip98
+\shortserieswidth=\skip99
+\shorttitlewidth=\skip100
+\shortauthorwidth=\skip101
+\shorteditorwidth=\skip102
+\locallabelnumberwidth=\skip103
+\locallabelalphawidth=\skip104
+\localshorthandwidth=\skip105
+\localshortjournalwidth=\skip106
+\localshortserieswidth=\skip107
+\localshorttitlewidth=\skip108
+\localshortauthorwidth=\skip109
+\localshorteditorwidth=\skip110
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count377
+\c@textcitetotal=\count378
+\c@textcitemaxnames=\count379
+\c@biburlnumpenalty=\count380
+\c@biburlucpenalty=\count381
+\c@biburllcpenalty=\count382
+\c@smartand=\count383
+)
+Package biblatex Info: Trying to load bibliography style 'trad-alpha'...
+Package biblatex Info: ... file 'trad-alpha.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-trad/trad-alpha.bbx
+File: trad-alpha.bbx 2018/02/17 v0.4a biblatex-trad alpha bibliograhy style
+Package biblatex Info: Trying to load bibliography style 'trad-standard'...
+Package biblatex Info: ... file 'trad-standard.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-trad/trad-standard.bbx
+File: trad-standard.bbx 2018/02/17 v0.4a biblatex-trad base bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count384
+\c@bbx:relatedtotal=\count385
+)))
+Package biblatex Info: Trying to load citation style 'trad-alpha'...
+Package biblatex Info: ... file 'trad-alpha.cbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-trad/trad-alpha.cbx
+File: trad-alpha.cbx 2018/02/17 v0.4a biblatex-trad alpha citation style
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: 'iso8601' date format specifier is deprecated.
+(biblatex)                Use 'iso' instead.
+
+
+Package biblatex Warning: 'iso8601' date format specifier is deprecated.
+(biblatex)                Use 'iso' instead.
+
+
+Package biblatex Warning: 'iso8601' date format specifier is deprecated.
+(biblatex)                Use 'iso' instead.
+
+
+Package biblatex Warning: 'iso8601' date format specifier is deprecated.
+(biblatex)                Use 'iso' instead.
+
+
+Package biblatex Warning: 'iso8601' date format specifier is deprecated.
+(biblatex)                Use 'iso' instead.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
+\csq@reset=\count386
+\csq@gtype=\count387
+\csq@glevel=\count388
+\csq@qlevel=\count389
+\csq@maxlvl=\count390
+\csq@tshold=\count391
+\csq@ltx@everypar=\toks25
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(./csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Disabling multilingual quotes.
+Package csquotes Info: Redefining alias 'default' -> 'lithuanian'.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count392
+\c@ALG@rem=\count393
+\c@ALG@nested=\count394
+\ALG@tlm=\skip111
+\ALG@thistlm=\skip112
+\c@ALG@Lnr=\count395
+\c@ALG@blocknr=\count396
+\c@ALG@storecount=\count397
+\c@ALG@tmpcounter=\count398
+\ALG@tmplength=\skip113
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count399
+\float@exts=\toks26
+\float@box=\box41
+\@float@everytoks=\toks27
+\@floatcapt=\box42
+)
+\@float@every@algorithm=\toks28
+\c@algorithm=\count400
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip114
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks30
+\ex@=\dimen152
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count401
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count402
+\leftroot@=\count403
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count404
+\DOTSCASE@=\count405
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count406
+\c@MaxMatrixCols=\count407
+\dotsspace@=\muskip17
+\c@parentequation=\count408
+\dspbrk@lvl=\count409
+\tag@help=\toks31
+\row@=\count410
+\column@=\count411
+\maxfields@=\count412
+\andhelp@=\toks32
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks33
+\multlinegap=\skip115
+\multlinetaggap=\skip116
+\mathdisplay@stack=\toks34
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+)
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count413
+\lst@gtempboxa=\box45
+\lst@token=\toks35
+\lst@length=\count414
+\lst@currlwidth=\dimen163
+\lst@column=\count415
+\lst@pos=\count416
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count417
+\lst@lineno=\count418
+\lst@maxwidth=\dimen166
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count419
+\lst@skipnumbers=\count420
+\lst@framebox=\box46
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count421
+\sf@farskip=\skip117
+\sf@captopadj=\dimen167
+\sf@capskip=\skip118
+\sf@nearskip=\skip119
+\c@subfigure=\count422
+\c@subfigure@save=\count423
+\c@subtable=\count424
+\c@subtable@save=\count425
+\sf@top=\skip120
+\sf@bottom=\skip121
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen168
+\WF@size=\dimen169
+\c@WF@wrappedlines=\count426
+\WF@box=\box47
+\WF@everypar=\toks36
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks37
+\labelindent=\skip122
+\enit@outerparindent=\dimen170
+\enit@toks=\toks38
+\enit@inbox=\box48
+\enitdp@description=\count427
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'lithuanian'...
+Package biblatex Info: ... file 'lithuanian.lbx' found.
+
+(./lithuanian.lbx
+File: lithuanian.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)$Id: lithuan
+ian.lbx,v 1.0 2015/02/05 20:21:28 niekas stable $
+)
+
+Package biblatex Warning: Conflicting options.
+(biblatex)                'date=iso' requires 'seconds=true'.
+(biblatex)                Setting 'seconds=true' on input line 41.
+
+(./kursinis.aux)
+\openout1 = `kursinis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 41.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 41.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 41.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 41.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 41.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 41.
+LaTeX Font Info:    Redeclaring math accent \check on input line 41.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 41.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 41.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 41.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/texgyretermes(0)/m/n on input line 4
+1.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/m/n on input line 
+41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/m/n on 
+input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/texgyretermes(0)/m/it on input line
+ 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/bx/n on input line
+ 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/bx/n on
+ input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/texgyretermes(0)/bx/it on input li
+ne 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 41.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=17.07182pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `kursinis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'kursinis.bbl' found.
+(./kursinis.bbl)
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
+\c@lstlisting=\count428
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+] [2
+
+]
+(./kursinis.toc)
+\tf@toc=\write5
+\openout5 = `kursinis.toc'.
+
+ [3] [4] [5] [6]
+
+Package caption Warning: \label without proper reference on input line 66.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:usecase' on page 7 undefined on input line 62.
+
+File: img/UseCaseDiagram.png Graphic file (type bmp)
+<img/UseCaseDiagram.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
+
+ []
+
+
+Package caption Warning: \label without proper reference on input line 76.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:usercd' on page 7 undefined on input line 71.
+
+File: img/userusecased.png Graphic file (type bmp)
+<img/userusecased.png>
+[7] [8] [9] (./kursinis.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'kursinis.run.xml'.
+\openout1 = `kursinis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 24003 strings out of 492970
+ 473294 string characters out of 6133938
+ 963471 words of memory out of 5000000
+ 27724 multiletter control sequences out of 15000+600000
+ 543198 words of font info for 88 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 67i,11n,96p,10540b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on kursinis.pdf (9 pages).
