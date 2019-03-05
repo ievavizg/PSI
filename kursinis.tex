@@ -13,6 +13,18 @@
 \usepackage{subfig}
 \usepackage{wrapfig}
 \usepackage{sectsty}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage[export]{adjustbox}
+\usepackage{rotating}
+\usepackage{hhline}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs,calc}
+\usepackage{tabularx,colortbl}
+\usepackage[table]{xcolor}  
+\usepackage{longtable}  
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
@@ -52,8 +64,401 @@ Anotacija?
 \sectionnonum{ĮVADAS}
 Ivadas?
 \newpage
-\section{REIKALAVIMAI}
-Andrius, Egle
+\section{FUNKCINIAI REIKALAVIMAI}
+Šiame skyriuje pateikiami funkciniai reikalavimai – nagrinėjami scenarijai, ką sistema turi daryti, kaip elgtis vienu ar kitu atveju.
+
+\subsection{Internetinės svetainės langai}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Internetinės svetainės langai.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Internetinės svetainės langai}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 1.1}&
+		{Svetainės langai „Registracija“, „Prisijungimas“, „Pagrindinis puslapis“, „Taisyklės“ turi būti matomi visiems net ir neprisijungusiems naudotojams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 1.2}&
+		{Svetainės langai „Mano profilis“, „Prekės įkėlimas“, „Prekės aukcionas“ turi būti matomi visiems prisijungusiems naudotojams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 1.3}&
+		{Svetainės langai „Visi aukcionai“, „Naudotojai“  turi būti matomas sistemos adminstratoriams.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+		\hline		
+	\end{tabular}		
+\end{table}
+
+\subsection{Registracija}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Registracija.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Registracija}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 2.1}&
+		{Naudotojui suvedus visą reikiamą informaciją ir nuspaudus mygtuką registruotis, jis turi būti priregistruojamas internetinėje sveitainėje.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 2.2}&
+		{Naudotojui nesuvedus informacijos į laukus pažymėtus žvaigždute jis neturi būti priregistruojamas nei registracijos puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 2.3}&
+		{Registruojantis naudotojas turi įvesti internetinėje svetainėje dar nepriregistruotą el. pašto adresą.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Prisijungimas}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Prisijungimas.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Prisijungimas}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 3.1}&
+		{Naudotojui suvedus tinkamus prisijungimo duomenis jis turi būti prijungiamas prie sistemos.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 3.2}&
+		{Naudotojui netinkamai įvedus prisijungimo duomenis jis neturi būti prijungiamas prie sistemos ir turi būti išmetamas klaidos pranešimas.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 3.3}&
+		{Naudotojų bandymų prisijungti prie sistemos skaičius neturi būti ribojamas.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Atsijungimas}
+
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Atsijungimas.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Atsijungimas}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 4.1}&
+		{Naudotojas paspaudęs mygtuką atsijungti turi būti atjungiamas nuo sistemos.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Paskyros valdymas}
+
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Paskyros valdymas.}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Paskyros valdymas}\\				
+		\hline
+		\multicolumn{2}{|c|}{FR 5.1}&
+		{Naudotojui paspaudus mygtuką „Mano profilis“ turi būti matoma visa žinoma informacija apie naudotoją.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 5.2}&
+		{Naudotojui paspaudus mygtuką „Pakeisti slaptažodį“, įvedus tinkamą seną ir naują slaptažodžius bei paspaudus mygtuką „Patvirtinti“ slaptažodis turi būti pakeičiamas į naują.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 5.3}&
+		{Naudotojui paspaudus mygtuką „Pakeisti slaptažodį“ ir įvedus netinkamą seną slaptažodį turi būti išvedamas klaidos pranešimas.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\	
+		\hline		
+	\end{tabular}		
+\end{table}
+
+\subsection{Taisyklės}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Taisyklės}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Taisyklės}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 6.1}&
+		{Taisyklės turi būti matomos puslapyje „Taisyklės“.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 6.2}&
+		{Visas taisyklių sąrašas turi būti pateikiamas viename puslapyje.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 6.3}&
+		{Taisyklės turi būti matomos visiems prisijungusiems ir neprisijungusiems naudotojams.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Pagrindinis puslapis}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Pagrindinis puslapis}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Pagrindinis puslapis}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 7.1}&
+		{Aktyvūs aukcionai turi būti matomi puslapyje „Pagrindinis puslapis“.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 7.2}&
+		{Visas aktyvių aukcionų sąrašas turi būti pateikiamas viename puslapyje.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 7.3}&
+		{Pagrindinis puslapis turi būti matomos visiems prisijungusiems ir neprisijungusiems naudotojams.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 7.4}&
+		{Prisijungusiam naudotojui paspaudus ant aktyvaus aukciono mygtuko „Daugiau informacijos“ turi būti atidaromas puslapis „Prekės aukcionas“.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Prekės įkėlimas}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Prekės įkėlimas}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Prekės įkėlimas}\\		
+		
+		\hline
+		\multicolumn{2}{|c|}{FR 8.1}&
+		{Puslapis „Prekės įkėlimas“ turi būti matomas visiems prijungusiems naudotojams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 8.2}&
+		{Naudotojui suvedus visą reikiamą informaciją apie aukciono prekę bei paspaudus mygtuką „Patvirtinti“ turi būti sukuriamas aukcionas.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 8.3}&
+		{Naudotojui nesuvedus informacijos į laukus pažymėtus žvaigždute aukcionas neturi būti sukuriamas nei prekės įkėlimo puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Prekės aukcionas}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Prekės aukcionas}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Prekės aukcionas}\\				
+		\hline
+		\multicolumn{2}{|c|}{FR 9.1}&
+		{Puslapis „Prekės aukcionas“ turi būti matomas visiems prijungusiems naudotojams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 9.2}&
+		{Puslapyje „Prekės aukcionas“ aukcionas yra aktyvus tokį laikotarpį, kokį nurodė naudotojas sukūręs aukcioną.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 9.3}&
+		{Jei aukciono statusas yra „Aktyvus“, naudotojai gali siūlyti savo kainas, jas įvedus į kainos laukelį ir paspaudus mygtuką „Patvirtinti“.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 9.4}&
+		{Naudotojo siūloma kaina negali būti mažesnė už jau pasiūlytą kainą. Jei naudotojas bando pasiūlyti mažesnę kainą, turi būti išmetamas klaidos pranešimas, jog kaina yra per maža.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 9.5}&
+		{Praėjus naudotojo nurodytam aukciono laikotarpiui jo statusas turi automatiškai pasikeisti į „Pasibaigęs“, puslapyje „Prekės aukcionas“ turi būti parašytas aukciono laimėtojas,o kainos siūlymo laukelis nebeturi būti matomas.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Visi aukcionai}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Visi aukcionai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Visi aukcionai}\\				
+		\hline
+		\multicolumn{2}{|c|}{FR 10.1}&
+		{Puslapis „Visi aukcionai“ turi būti matomas tik sistemos administratoriams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 10.2}&
+		{Puslapyje „Visi aukcionai“ turi būti matomas visų aktyvių ir pasibaigusių aukcionų sąrašas.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 10.3}&
+		{Visas aukcionų sąrašas turi būti pateikiamas viename puslapyje.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 10.4}&
+		{Puslapyje administratorius turi turėti galimybę ištrinti aukcioną.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Naudotojai}
+\begin{table}[H]
+	\caption{Funkciniai reikalavimai. Naudotojai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Naudotojai}\\				
+		\hline
+		\multicolumn{2}{|c|}{FR 11.1}&
+		{Puslapis „Naudotojai“ turi būti matomas tik sistemos administratoriams.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 11.2}&
+		{Puslapyje „Naudotojai“ turi būti matomas visų naudotojų sąrašas.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 11.3}&
+		{Visas naudotojų sąrašas turi būti pateikiamas viename puslapyje.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{FR 11.4}&
+		{Puslapyje administratorius turi turėti galimybę užblokuoti naudotoją aukcioną.
+		}&
+		\multicolumn{1}{c|}{Būtina}\\									
+		\hline
+	\end{tabular}		
+\end{table}
+
+\section{NEFUNKCINIAI REIKALAVIMAI}
+Andrius
 \newpage
 \section{STRUKTŪRINIS DALYKINĖS SRITIES MODELIS}
 Kasparas
