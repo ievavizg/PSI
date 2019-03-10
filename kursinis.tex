@@ -456,9 +456,309 @@ Ivadas?
 		\hline
 	\end{tabular}		
 \end{table}
+\newpage
 
 \section{NEFUNKCINIAI REIKALAVIMAI}
-Andrius
+
+\subsection{Programinės įrangos bei techniniai reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. PĮ}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{PĮ ir techniniai reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 1.1}&
+		{Naudojama MySQL duomenų bazių valdymo sistema. 
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{1}{|c}{}&
+		\multicolumn{1}{c|}{NFR 1.2}&
+		{Duomenų bazėje saugoma informacija apie registruotus vartotojus, prekes.
+		}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline	
+	\end{tabular}		
+\end{table}
+
+\subsection{Programavimo kalbos reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Programavimo kalbos reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Programavimo kalbos reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 2.1}&
+		{Programa kuriama Javascript programavimo kalba.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Programavimo aplinkos reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Programavimo aplinkos reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Programavimo aplinkos reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 3.1}&
+		{Programa kuriama Webstorm programavimo aplinkoje.}&		
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 3.2}&
+		{Kodo saugojimui ir dalinimuisi naudojama privati Github repositorija.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Vaizdavimo tikslumo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Vaizdavimo tikslumo reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Vaizdavimo tikslumo reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.1}&
+		{Prekės antraštė, pavadinimas - iki 20 simbolių.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.2}&
+		{Prekės kaina - centų tikslumu}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.3}&
+		{Prekės paveikslėlis - PNG arba JPG formatu.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.4}&
+		{Prekės paveikslėlio failo dydis - ne daugiau 4MB.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.5}&
+		{Prekės aprašas - ne daugiau 500 simbolių.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.6}&
+		{Aukciono dienos pasirinkimas - 1 diena, 3 dienos, savaitė.}&		
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.7}&
+		{Laiko formatas - HH:MM:SS, kur HH - valandos, MM - minutės, SS - sekundės}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 4.8}&
+		{Datos formatas - YYYY:MM:DD, kur YYYY - metai, MM - mėnuo, DD - diena}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Našumo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Našumo reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Našumo reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 5.1}&
+		{Statymo operacijos patvirtinimas turi trukti ne ilgiau kaip 15 sekundžių}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Aptarnavimo ir priežiūros reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Aptarnavimo ir priežiūros reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Aptarnavimo ir priežiūros reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 6.1}&
+		{Atnaujinimai privalo būti įdiegti per dvi savaites nuo sėkmingo patikrinimo STAGE versijoje. }&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 6.2}&
+		{Pastebėtos ar vartotojų praneštos klaidos turi būti ištaisytos per 7 darbo dienas. }&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 6.3}&
+		{Vartotojai privalo galėti dalyvauti aukcionose net ir atnaujinimų metų.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Sistemos supratimo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Sistemos supratimo reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Sistemos supratimo reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 7.1}&
+		{Sistema privalo būti lietuvių kalba.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 7.2}&
+		{Darbuotojai privalo būti apmokomi prieš pradedant administruoti aukcioną.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Robastiškumo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Robastiškumo reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Robastiškumo reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 8.1}&
+		{Įvykus sutrikimui, DB duomenų neprieštaringumą turi užtikrinti naudojama duomenų bazių valdymo sistema.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 8.2}&
+		{Jei dėl planuojamo atnaujinimo reikės trumpam sustabdyti sistemos veiklą, naudotojai turi būti iš anksto įspėti ne mažiau nei prieš 24 val.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 8.3}&
+		{Į naudotojo laiškus su pastebėjimais ir skundais atsakyti reikia per 3 darbo dienas.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Tiražuojamumo reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Tiražuojamumo reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Tiražuojamumo reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 9.1}&
+		{Sistema netiražuojama ir kuriama tik užsakovui.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 9.2}&
+		{Užsakovas neturi teisės platinti programų sistemą.}&	
+		\multicolumn{1}{c|}{Butina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Apsaugos reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Apsaugos reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Apsaugos reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 10.1}&
+		{Identifikacija vykdoma prisijungiant prie sistemos.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 10.2}&
+		{Automatinis atjungimas iš sistemos įvykdomas po 45 minučių neaktyvumo.}&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 10.3}&
+		{Atsarginės DB kopijos daromos ne rečiau nei kas savaitę. }&	
+		\multicolumn{1}{c|}{Pageidautina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
+\subsection{Juridiniai reikalavimai}
+\begin{table}[H]
+	\caption{Nefunkciniai reikalavimai. Juridiniai reikalavimai}
+	\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
+		\hline 
+		\rowcolor{gray!50}
+		\multicolumn{2}{|c|}{{\bfseries Kodas}}&
+		\multicolumn{1}{c|}{{\bfseries Reikalavimas}}&
+		\multicolumn{1}{c|}{{\bfseries Svarba}}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{4}{|c|}{Juridiniai reikalvimai}\\				
+		\hline
+		\multicolumn{2}{|c|}{NFR 11.1}&
+		{Duomenų saugojimas negali pažeisti asmens duomenų teisinės apsaugos įstatymo.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 11.2}&
+		{Kuriant sistemą projekto komanda neturi naudotis nelegalia programine įranga.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+		\multicolumn{2}{|c|}{NFR 11.3}&
+		{Internetinėje svetainėje turi būti galimybė peržiūrėti naudojimosi sąlygas.}&	
+		\multicolumn{1}{c|}{Būtina}\\
+		\hline
+	\end{tabular}		
+\end{table}
+
 \newpage
 \section{STRUKTŪRINIS DALYKINĖS SRITIES MODELIS}
 Kasparas
