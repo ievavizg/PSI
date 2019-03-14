@@ -30,6 +30,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.11.}Naudotojai}{9}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.12.}Sąskaita}{9}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}NEFUNKCINIAI REIKALAVIMAI}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.}Programinės įrangos bei techniniai reikalavimai}{10}

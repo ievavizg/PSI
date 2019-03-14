@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  14 MAR 2019 07:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  14 MAR 2019 07:30
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1414,31 +1414,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `kursinis.toc'.
 
  [3] [4] [5] [6] [7] [8] [9] [10] [11]
-Overfull \hbox (4.12816pt too wide) in paragraph at lines 725--748
+Overfull \hbox (4.12816pt too wide) in paragraph at lines 764--787
 [][] 
  []
 
 [12] [13] [14]
 
-Package caption Warning: \label without proper reference on input line 787.
+Package caption Warning: \label without proper reference on input line 826.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:usecase' on page 15 undefined on input line 783.
+LaTeX Warning: Reference `fig:usecase' on page 15 undefined on input line 822.
 
 File: img/UseCaseDiagram.png Graphic file (type bmp)
 <img/UseCaseDiagram.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--789
+Underfull \hbox (badness 10000) in paragraph at lines 822--828
 
  []
 
 
-Package caption Warning: \label without proper reference on input line 797.
+Package caption Warning: \label without proper reference on input line 836.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:usercd' on page 15 undefined on input line 792.
+LaTeX Warning: Reference `fig:usercd' on page 15 undefined on input line 831.
 
 File: img/userusecased.png Graphic file (type bmp)
 <img/userusecased.png>
