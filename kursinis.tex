@@ -56,13 +56,29 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
-Anotacija?
+Šiame dokumente sistema analizuojama taikant ICONIX metodą. Pateikiami funkciniai ir nefunkciniai reikalavimai, apibrėžiamas struktūrinis dalykinės srities modelis. Taip pat aprašomos sistemoje atliekamos užduotys, analizuojami pagrindiniai ir alternatyvūs užduočių scenarijai. Rašant šį dokumentą buvo naudojamasi:
+\\1. dr. Vytauto Valaičio internetiniu puslapiu (https://klevas.mif.vu.lt/~valaitis/)
+\\2. doc., dr. Karolio Petrausko internetiniu puslapiu (http://klevas.mif.vu.lt/~karolis/)
+\\3. Latex programa
+\\4. lab. asst. Jono Brusoko parengtais kursinio darbo šablonais (https://gitlab.com/JohnLogic/SE-course-work-template)
 \newpage
 %TURINYS
 \tableofcontents
 
 \sectionnonum{ĮVADAS}
-Ivadas?
+Internetinis aukcionas kuriamas siekiant išplėsti dalyvavimą aukcionuose nuotoliniu
+būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti aukcionuose bet kuriuo paros metu. Dokumente pateikiamas pagrindinis programos funkcionalumas ir tam tikri ribojimai jos kūrimui. Pasitelkiant ICONIX metodą sudaromi užduočių scenarijai, apibrėžiamos pagrindinės kuriamos sistemos esybės, sudaromas struktūrinis dalykinės srities modelis. Šis dokumentas padeda toliau projektuoti ir nuspręsti, kaip sistema turėtų būti įgyvendinta.
+\\\textbf{Dalykinė sritis}
+\\Internetinis aukcionas.
+\\\textbf{Probleminė sritis} 
+\\Internetinis aukcionas suteiktų galimybę greitai ir paprastai dalyvauti aukcionuose.
+\\\textbf{Darbo pagrindas}
+\\Dokumentas parengtas kaip Programų sistemų inžinerijos II dalies I laboratorinis darbas.
+\\\textbf{Darbo užduotys}
+\\1. Suformuluoti funkcinius reikalavimus.
+\\2. Suformuluoti nefunkcinius reikalavimus.
+\\3. Apibrėžti struktūrinį dalykinės srities modelį.
+\\4. Aprašyti sistemoje atliekamas užduotis.
 \newpage
 \section{FUNKCINIAI REIKALAVIMAI}
 Šiame skyriuje pateikiami funkciniai reikalavimai – nagrinėjami scenarijai, ką sistema turi daryti, kaip elgtis vienu ar kitu atveju.
@@ -82,7 +98,7 @@ Ivadas?
 		
 		\hline
 		\multicolumn{2}{|c|}{FR 1.1}&
-		{Svetainės langai „Registracija“, „Prisijungimas“, „Pagrindinis puslapis“, „Taisyklės“ turi būti matomi visiems net ir neprisijungusiems naudotojams.
+		{Svetainės langai „Registracija“, „Prisijungimas“, „Pagrindinis puslapis“, „Taisyklės“ turi būti matomi visiems naudotojams.
 		}&		
 		\multicolumn{1}{c|}{Būtina}\\
 		\hline
@@ -122,7 +138,7 @@ Ivadas?
 		\hline
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 2.2}&
-		{Naudotojui nesuvedus informacijos į laukus pažymėtus žvaigždute jis neturi būti priregistruojamas nei registracijos puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
+		{Naudotojui nesuvedus informacijos į visus privalomus laukus jis neturi būti priregistruojamas sistemoje bei registracijos puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
 		}&		
 		\multicolumn{1}{c|}{Būtina}\\
 		\hline	
@@ -156,13 +172,13 @@ Ivadas?
 		\hline
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 3.2}&
-		{Naudotojui netinkamai įvedus prisijungimo duomenis jis neturi būti prijungiamas prie sistemos ir turi būti išmetamas klaidos pranešimas.
+		{Naudotojui netinkamai įvedus prisijungimo duomenis jis neturi būti prijungiamas prie sistemos bei turi būti išmetamas klaidos pranešimas.
 		}&		
 		\multicolumn{1}{c|}{Būtina}\\
 		\hline	
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 3.3}&
-		{Naudotojų bandymų prisijungti prie sistemos skaičius neturi būti ribojamas.
+		{Naudotojo bandymų prisijungti prie sistemos skaičius neturi būti ribojamas.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -253,7 +269,7 @@ Ivadas?
 		\hline	
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 6.3}&
-		{Taisyklės turi būti matomos visiems prisijungusiems ir neprisijungusiems naudotojams.
+		{Taisyklės turi būti matomos visiems sistemos naudotojams.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -287,7 +303,7 @@ Ivadas?
 		\hline	
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 7.3}&
-		{Pagrindinis puslapis turi būti matomos visiems prisijungusiems ir neprisijungusiems naudotojams.
+		{Pagrindinis puslapis turi būti matomas visiems sistemos naudotojams.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -327,7 +343,7 @@ Ivadas?
 		\hline	
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 8.3}&
-		{Naudotojui nesuvedus informacijos į laukus pažymėtus žvaigždute aukcionas neturi būti sukuriamas nei prekės įkėlimo puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
+		{Naudotojui nesuvedus informacijos į visus privalomus laukus aukcionas neturi būti sukuriamas bei prekės įkėlimo puslapyje turi būti išmetamas klaidos pranešimas, pranešantis, jog reikia užpildyti visus privalomus laukus.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -360,7 +376,7 @@ Ivadas?
 		\hline	
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 9.3}&
-		{Jei aukciono statusas yra „Aktyvus“, naudotojai gali siūlyti savo kainas, jas įvedus į kainos laukelį ir paspaudus mygtuką „Patvirtinti“.
+		{Jei aukciono statusas yra „Aktyvus“ naudotojai gali siūlyti savo kainas jas įvedus į kainos laukelį ir paspaudus mygtuką „Patvirtinti“.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -372,7 +388,7 @@ Ivadas?
 		\hline
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 9.5}&
-		{Praėjus naudotojo nurodytam aukciono laikotarpiui jo statusas turi automatiškai pasikeisti į „Pasibaigęs“, puslapyje „Prekės aukcionas“ turi būti parašytas aukciono laimėtojas,o kainos siūlymo laukelis nebeturi būti matomas.
+		{Praėjus naudotojo nurodytam aukciono laikotarpiui jo statusas turi automatiškai pasikeisti į „Pasibaigęs“, puslapyje „Prekės aukcionas“ turi būti parašytas aukciono laimėtojas, o kainos siūlymo laukelis nebeturi būti matomas.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -450,7 +466,7 @@ Ivadas?
 		\hline
 		\multicolumn{1}{|c}{}&
 		\multicolumn{1}{c|}{FR 11.4}&
-		{Puslapyje administratorius turi turėti galimybę užblokuoti naudotoją aukcioną.
+		{Puslapyje administratorius turi turėti galimybę užblokuoti naudotoją.
 		}&
 		\multicolumn{1}{c|}{Būtina}\\									
 		\hline
@@ -793,4 +809,9 @@ Skyriuje pateikiamas užduoties registruotis aprašymas. Pateikiama užduoties r
 \newpage
 
 \sectionnonum{REZULTATAI}
+Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai.
+\newpage
+
+\sectionnonum{PERŽIŪROS METU RASTOS KLAIDOS}
+1. Perrašyti funkciniai reikalavimai.
 \end{document}

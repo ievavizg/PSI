@@ -63,3 +63,5 @@
 \contentsline {subsubsection}{\numberline {4.1.1.}Užduotis - Registruotis}{16}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{REZULTATAI}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{18}
