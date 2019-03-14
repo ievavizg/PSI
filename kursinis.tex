@@ -816,7 +816,24 @@ būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti 
 
 \newpage
 \section{STRUKTŪRINIS DALYKINĖS SRITIES MODELIS}
-Kasparas
+Šiame skyriuje pateikiamas struktūrinis nagrinėjamos dalykinės srities modelis. Modelis pateikiamas UML klasių diagrama kartu su žodynu - sąrašu esybių su jų aprašymais.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/umlClassDiagram.png}
+\label{fig:usecase}
+\caption{Struktūrinis dalykinės srities modelis}
+\end{figure}
+\noindent
+\textbf{Esybių sąrašas:} \\
+1. Naudotojas - esybė, atsakinga už naudotojo duomenų saugojimą, jo valdymą\\
+2. Administratorius - naudotojo funkcionalumą išplečianti esybė, suteikianti galimybę atlikti administratoriaus operacijas\\
+3. Sąskaita - kiekvienam naudotojui priklausanti esybė, sauganti informaciją apie naudotojo sąskaitą bei atliekanti mokėjimo operacijas sistemoje\\
+4. Valdiklis - esybė, atsakinga už visos aukciono sistemos valdymą bei duomenų saugojimą\\
+5. Administratoriaus Valdiklis - išplėstinė valdiklio esybė, papildyta administratoriui reikalingu funkcionalumu\\
+6. Aukcionas - esybė, atsakinga už aukciono informacijos saugojimą bei jo valdymą\\
+7. Statymas - esybė, aprašanti bei sauganti informaciją apie atliktą statymą\\
+8. Prekė - esybė, apibūdinanti bei sauganti informaciją apie aukcione parduodamą prekę\\
+
 \newpage
 \section{UŽDUOTYS}
 Šioje dokumento dalyje yra pateikiamos sistemos atliekamos užduotys  (\ref{fig:usecase} pav.) Pateikiamas pagrindinis scenarijus ir alternatyvūs.\\
