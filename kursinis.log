@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  14 MAR 2019 07:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  17 MAR 2019 19:48
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1258,7 +1258,11 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 53.
 
-(kursinis.aux)
+(kursinis.aux
+
+LaTeX Warning: Label `fig:usecase' multiply defined.
+
+)
 \openout1 = `kursinis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1409,54 +1413,75 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [2
 
 ]
-(kursinis.toc)
+(kursinis.toc [3])
 \tf@toc=\write5
 \openout5 = `kursinis.toc'.
 
- [3] [4] [5] [6] [7] [8] [9] [10] [11]
+ [4] [5] [6] [7] [8] [9] [10] [11] [12]
 Overfull \hbox (4.12816pt too wide) in paragraph at lines 764--787
 [][] 
  []
 
-[12] [13] [14]
+[13] [14]
+File: img/umlClassDiagram.png Graphic file (type bmp)
+<img/umlClassDiagram.png>
 
-Package caption Warning: \label without proper reference on input line 826.
+Underfull \hbox (badness 10000) in paragraph at lines 826--836
+
+ []
+
+[15]
+
+Package caption Warning: \label without proper reference on input line 844.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:usecase' on page 15 undefined on input line 822.
+LaTeX Warning: Reference `fig:usecase' on page 16 undefined on input line 840.
 
 File: img/UseCaseDiagram.png Graphic file (type bmp)
 <img/UseCaseDiagram.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--828
+Underfull \hbox (badness 10000) in paragraph at lines 849--854
 
  []
 
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 860--861
 
-Package caption Warning: \label without proper reference on input line 836.
-See the caption package documentation for explanation.
+ []
+
+[17] [18] [19] [20]
+File: img/matrix.png Graphic file (type bmp)
+<img/matrix.png>
+
+Underfull \hbox (badness 1132) in paragraph at lines 1019--1025
+[]\TU/texgyretermes(0)/m/n/12 Skyriuje pateikiama reikalavimų - užduočių atseka
+mumo matrica. Parodoma, kokios
+ []
 
 
-LaTeX Warning: Reference `fig:usercd' on page 15 undefined on input line 831.
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1025
 
-File: img/userusecased.png Graphic file (type bmp)
-<img/userusecased.png>
-[15] [16] [17] [18] (kursinis.aux)
+ []
+
+[21] [22] [23] [24] (kursinis.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25168 strings out of 427835
- 479053 string characters out of 3152454
+ 25176 strings out of 427835
+ 479202 string characters out of 3152454
  985349 words of memory out of 3000000
- 28821 multiletter control sequences out of 15000+200000
+ 28829 multiletter control sequences out of 15000+200000
  543198 words of font info for 88 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,12n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (18 pages).
+Output written on kursinis.pdf (24 pages).
