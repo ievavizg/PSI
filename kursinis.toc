@@ -110,6 +110,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.8.}Koreguoti aukcioną}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{28}
+\contentsline {subsection}{\numberline {5.9.}Priimti statymą}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{29}
+\contentsline {subsection}{\numberline {5.10.}Įvertinti pardavėją}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.11.}Peržiūrėti narius}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.12.}Koreguoti naudotojų sąrašą}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.13.}Koreguoti aukcionus}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.14.}Peržiūrėti taisykles}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.15.}Papildyti sąskaitą}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{REZULTATAI}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{32}
