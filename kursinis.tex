@@ -1137,6 +1137,49 @@
 	
 	\newpage
 	
+	\section{TECHNINĖ ARCHITEKTŪRA}
+	Šiame skyriuje pateikiama techninė sistemos architektūra. Apžvelgiamas komponentų išsidėstymas, jų pasiskirstymas vykdymo aplinkose.
+	\subsection{Išoriniai komponentai}
+	Apžvelgiama išorinių sistemos komponentų sąveika.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/umlComponentDiagramExternal.png}
+		\label{fig:aukckoreg}
+		\caption{Išorinių sistemos komponentų UML diagrama}
+	\end{figure}
+	
+	Sistema sudaryta iš trijų išorinių komponentų. Vartotojai per aukciono sistemos klientą gali komunikuoti su aukciono sistemos serveriu. Kuris yra atsakingas už informacijos saugojimą bei manipuliavimą ja. Šiuo tikslu serveris komunikuoja su duomenų baze. 
+	
+	\newpage
+	
+	\subsection{Vidiniai komponentai}
+	Apžvelgiama vidinių sistemos komponentų sąveika.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/umlComponentDiagram.png}
+		\label{fig:aukckoreg}
+		\caption{Vidinių sistemos komponentų UML diagrama}
+	\end{figure}
+	
+	Vidinių sistemos komponentų diagramoje galime matyti detalesnį sistemos vaizdą. Aukciono sistemos klientas turi du kertinius komponentus - grafinę vartojo sąsają bei kliento valdiklį. Grafinė vartotojo sąsaja atsakinga už komunikaviją su sistemos vartotoju bei šios informacijos perdavimą kliento valdikliui, kuris yra atsakingas už tolimesnę komunikaciją su aukciono sistemos serveriu.
+	
+	Aukciono sistemos serveris sudarytas iš trijų kertinių komponentų - serverio valdiklio, vartotojų valdymo posistemės bei aukcionų valdymo posistemės. Serverio valdiklis yra atsakingas už komunikaciją su aukciono sistemos klientais bei kontroliuoja serverio posistemių darbą. Vartotojų valdymo posistemė yra atsakinga už vartotojų informacijos valdymą. Šiam tikslui yra komunikuojama išoriniu duoemnų bazės komponentu. Aukcionų valdymo posistemė yra atsakinga už aukcionų informacijos valdymą bei komunikaciją su išorine duomenų baze.
+	
+	\newpage
+	
+	\subsection{komponentų išsidėstymas tinkle}
+	Apžvelgiami tinkle išsidėstę sistemos komponentai.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/umlNetworkComponentDiagram.png}
+		\label{fig:aukckoreg}
+		\caption{Sistemos komponentų išsidėstymo tinkle UML diagrama}
+	\end{figure}
+	
+	Aukciono sistemos duomenys yra saugojami MySQL duomenų bazėje. Šie duomenys TCP/IP protokolu yra pasiekiami aukciono sistemos serveriui. Aukciono sistemos klientai gali komunikuoti su serveriu pasitelkiant HTTPS protokolą. Vartotojas savo įrenginyje aukcionų sistemą gali pasiekti per internetinį tinklapį. Šis internetis tinklapis per grafinę vartotojo sąsają įgalina vartotoją komunikuoti su vartotojų valdymo bei auckionų valdymo posistemėmis.
+	
+	\newpage
+	
 	\sectionnonum{REZULTATAI}
 	Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai.
 	\newpage
