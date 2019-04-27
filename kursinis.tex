@@ -35,7 +35,7 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
-\papertype{Programų sistemų inžinerijos I laboratorinis darbas}
+\papertype{Programų sistemų inžinerijos II laboratorinis darbas}
 \title{Internetinis aukcionas}
 \titleineng{Digital Auction}
 \status{2 kurso 4 grupės studentai}
@@ -56,7 +56,8 @@
 	\cleardoublepage\pagenumbering{arabic}
 	\setcounter{page}{2}
 	\sectionnonum{ANOTACIJA}
-	Šiame dokumente sistema analizuojama taikant ICONIX metodą. Pateikiami funkciniai ir nefunkciniai reikalavimai, apibrėžiamas struktūrinis dalykinės srities modelis. Taip pat aprašomos sistemoje atliekamos užduotys, analizuojami pagrindiniai ir alternatyvūs užduočių scenarijai. Rašant šį dokumentą buvo naudojamasi:
+	Šiame dokumente sistema analizuojama taikant ICONIX metodą. Pateikiami funkciniai ir nefunkciniai reikalavimai, apibrėžiamas struktūrinis dalykinės srities modelis. Taip pat aprašomos sistemoje atliekamos užduotys, analizuojami pagrindiniai ir alternatyvūs užduočių scenarijai. Apibrėžiama
+	techninė kuriamos sistemos architektūra bei atliekama užduočių robastiškumo analizė. Rašant šį dokumentą buvo naudojamasi:
 	\\1. dr. Vytauto Valaičio internetiniu puslapiu (https://klevas.mif.vu.lt/~valaitis/)
 	\\2. doc., dr. Karolio Petrausko internetiniu puslapiu (http://klevas.mif.vu.lt/~karolis/)
 	\\3. Latex programa
@@ -67,18 +68,17 @@
 	
 	\sectionnonum{ĮVADAS}
 	Internetinis aukcionas kuriamas siekiant išplėsti dalyvavimą aukcionuose nuotoliniu
-	būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti aukcionuose bet kuriuo paros metu. Dokumente pateikiamas pagrindinis programos funkcionalumas ir tam tikri ribojimai jos kūrimui. Pasitelkiant ICONIX metodą sudaromi užduočių scenarijai, apibrėžiamos pagrindinės kuriamos sistemos esybės, sudaromas struktūrinis dalykinės srities modelis. Šis dokumentas padeda toliau projektuoti ir nuspręsti, kaip sistema turėtų būti įgyvendinta.
+	būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti aukcionuose bet kuriuo paros metu. Dokumente pateikiamas pagrindinis programos funkcionalumas ir tam tikri ribojimai jos kūrimui. Pasitelkiant ICONIX metodą sudaromi užduočių scenarijai, apibrėžiamos pagrindinės kuriamos sistemos esybės, reikalavimai, atliekama robastiškumo analizė bei sudaromas struktūrinis dalykinės srities modelis. Šis dokumentas padeda toliau projektuoti ir nuspręsti, kaip sistema turėtų būti įgyvendinta.
 	\\\textbf{Dalykinė sritis}
 	\\Internetinis aukcionas.
 	\\\textbf{Probleminė sritis} 
 	\\Internetinis aukcionas suteiktų galimybę greitai ir paprastai dalyvauti aukcionuose.
 	\\\textbf{Darbo pagrindas}
-	\\Dokumentas parengtas kaip Programų sistemų inžinerijos II dalies I laboratorinis darbas.
+	\\Dokumentas parengtas kaip Programų sistemų inžinerijos II dalies II laboratorinis darbas.
 	\\\textbf{Darbo užduotys}
-	\\1. Suformuluoti funkcinius reikalavimus.
-	\\2. Suformuluoti nefunkcinius reikalavimus.
-	\\3. Apibrėžti struktūrinį dalykinės srities modelį.
-	\\4. Aprašyti sistemoje atliekamas užduotis.
+	\\1. Patikslinti funkcinius ir nefunkcinius reikalavimus.
+	\\2. Atlikti robastiškumo analizę.
+	\\3. Apibrėžti sistemos techninę architektūrą.
 	\newpage
 	\section{FUNKCINIAI REIKALAVIMAI}
 	Šiame skyriuje pateikiami funkciniai reikalavimai – nagrinėjami scenarijai, ką sistema turi daryti, kaip elgtis vienu ar kitu atveju.
@@ -231,13 +231,13 @@
 			\multicolumn{1}{c|}{FR 5.2}&
 			{Naudotojui paspaudus mygtuką „Pakeisti slaptažodį“, įvedus tinkamą seną ir naują slaptažodžius bei paspaudus mygtuką „Patvirtinti“ slaptažodis turi būti pakeičiamas į naują.
 			}&		
-			\multicolumn{1}{c|}{Būtina}\\
+			\multicolumn{1}{c|}{Pageidautina}\\
 			\hline
 			\multicolumn{1}{|c}{}&
 			\multicolumn{1}{c|}{FR 5.3}&
 			{Naudotojui paspaudus mygtuką „Pakeisti slaptažodį“ ir įvedus netinkamą seną slaptažodį turi būti išvedamas klaidos pranešimas.
 			}&
-			\multicolumn{1}{c|}{Būtina}\\	
+			\multicolumn{1}{c|}{Pageidautina}\\	
 			\hline		
 		\end{tabular}		
 	\end{table}
@@ -299,7 +299,7 @@
 			\multicolumn{1}{c|}{FR 7.2}&
 			{Visas aktyvių aukcionų sąrašas turi būti pateikiamas viename puslapyje.
 			}&		
-			\multicolumn{1}{c|}{Būtina}\\
+			\multicolumn{1}{c|}{Pageidautina}\\
 			\hline	
 			\multicolumn{1}{|c}{}&
 			\multicolumn{1}{c|}{FR 7.3}&
@@ -364,7 +364,7 @@
 			\multicolumn{4}{|c|}{Prekės aukcionas}\\				
 			\hline
 			\multicolumn{2}{|c|}{FR 9.1}&
-			{Puslapis „Prekės aukcionas“ turi būti matomas visiems prijungusiems naudotojams.
+			{Puslapis „Prekės aukcionas“ turi būti matomas visiems prisijungusiems naudotojams.
 			}&		
 			\multicolumn{1}{c|}{Būtina}\\
 			\hline
@@ -423,7 +423,7 @@
 			\multicolumn{1}{c|}{FR 10.3}&
 			{Visas aukcionų sąrašas turi būti pateikiamas viename puslapyje.
 			}&
-			\multicolumn{1}{c|}{Būtina}\\									
+			\multicolumn{1}{c|}{Pageidautina}\\									
 			\hline
 			\multicolumn{1}{|c}{}&
 			\multicolumn{1}{c|}{FR 10.4}&
@@ -468,7 +468,7 @@
 			\multicolumn{1}{c|}{FR 11.4}&
 			{Puslapyje administratorius turi turėti galimybę užblokuoti naudotoją.
 			}&
-			\multicolumn{1}{c|}{Būtina}\\									
+			\multicolumn{1}{c|}{Pageidautina}\\									
 			\hline
 		\end{tabular}		
 	\end{table}
@@ -514,10 +514,10 @@
 	\newpage
 	
 	\section{NEFUNKCINIAI REIKALAVIMAI}
-	
+	Šiame skyriuje pateikiami nefunkciniai reikalavimai - aprašoma, kaip sistema turi veikti ir kaip ji turi būti kuriama.
 	\subsection{Programinės įrangos bei techniniai reikalavimai}
 	\begin{table}[H]
-		\caption{Nefunkciniai reikalavimai. PĮ}
+		\caption{Nefunkciniai reikalavimai. Programinės įrangos ir techniniai reikalavimai}
 		\begin{tabular}{|p{1cm}|p{1cm}|p{11,5cm}|p{3,5cm}|}
 			\hline 
 			\rowcolor{gray!50}
@@ -526,7 +526,7 @@
 			\multicolumn{1}{c|}{{\bfseries Svarba}}\\
 			\hline
 			\rowcolor{lightgray}
-			\multicolumn{4}{|c|}{PĮ ir techniniai reikalvimai}\\				
+			\multicolumn{4}{|c|}{Programinės įrangos ir techniniai reikalvimai}\\				
 			\hline
 			\multicolumn{2}{|c|}{NFR 1.1}&
 			{Naudojama MySQL duomenų bazių valdymo sistema. 
@@ -649,7 +649,7 @@
 			\hline
 			\multicolumn{2}{|c|}{NFR 5.1}&
 			{Statymo operacijos patvirtinimas turi trukti ne ilgiau kaip 15 sekundžių}&	
-			\multicolumn{1}{c|}{Būtina}\\
+			\multicolumn{1}{c|}{Pageidautina}\\
 			\hline
 		\end{tabular}		
 	\end{table}
@@ -676,7 +676,7 @@
 			\multicolumn{1}{c|}{Pageidautina}\\
 			\hline
 			\multicolumn{2}{|c|}{NFR 6.3}&
-			{Vartotojai privalo galėti dalyvauti aukcionose net ir atnaujinimų metų.}&	
+			{Vartotojai privalo galėti dalyvauti aukcionuose net ir atnaujinimų metų.}&	
 			\multicolumn{1}{c|}{Pageidautina}\\
 			\hline
 		\end{tabular}		
@@ -804,7 +804,7 @@
 			\multicolumn{1}{c|}{Būtina}\\
 			\hline
 			\multicolumn{2}{|c|}{NFR 11.2}&
-			{Kuriant sistemą projekto komanda neturi naudotis nelegalia programine įranga.}&	
+			{Kuriant sistemą projekto komanda turi nesinaudoti nelegalia programine įranga.}&	
 			\multicolumn{1}{c|}{Būtina}\\
 			\hline
 			\multicolumn{2}{|c|}{NFR 11.3}&
@@ -825,19 +825,19 @@
 	\end{figure}
 	\noindent
 	\textbf{Esybių sąrašas:} \\
-	1. Naudotojas - esybė, atsakinga už naudotojo duomenų saugojimą, jo valdymą\\
-	2. Administratorius - naudotojo funkcionalumą išplečianti esybė, suteikianti galimybę atlikti administratoriaus operacijas\\
-	3. Sąskaita - kiekvienam naudotojui priklausanti esybė, sauganti informaciją apie naudotojo sąskaitą bei atliekanti mokėjimo operacijas sistemoje\\
-	4. Valdiklis - esybė, atsakinga už visos aukciono sistemos valdymą bei duomenų saugojimą\\
-	5. Administratoriaus Valdiklis - išplėstinė valdiklio esybė, papildyta administratoriui reikalingu funkcionalumu\\
-	6. Aukcionas - esybė, atsakinga už aukciono informacijos saugojimą bei jo valdymą\\
-	7. Statymas - esybė, aprašanti bei sauganti informaciją apie atliktą statymą\\
-	8. Prekė - esybė, apibūdinanti bei sauganti informaciją apie aukcione parduodamą prekę\\
+	1. Naudotojas - esybė, atsakinga už naudotojo duomenų saugojimą, jo valdymą.\\
+	2. Administratorius - naudotojo funkcionalumą išplečianti esybė, suteikianti galimybę atlikti administratoriaus operacijas.\\
+	3. Sąskaita - kiekvienam naudotojui priklausanti esybė, sauganti informaciją apie naudotojo sąskaitą bei atliekanti mokėjimo operacijas sistemoje.\\
+	4. Valdiklis - esybė, atsakinga už visos aukciono sistemos valdymą bei duomenų saugojimą.\\
+	5. Administratoriaus Valdiklis - išplėstinė valdiklio esybė, papildyta administratoriui reikalingu funkcionalumu.\\
+	6. Aukcionas - esybė, atsakinga už aukciono informacijos saugojimą bei jo valdymą.\\
+	7. Statymas - esybė, aprašanti bei sauganti informaciją apie atliktą statymą.\\
+	8. Prekė - esybė, apibūdinanti bei sauganti informaciją apie aukcione parduodamą prekę.\\
 	
 	\newpage
 	\newpage
 	\section{UŽDUOTYS}
-	Šioje dokumento dalyje yra pateikiamos sistemos atliekamos užduotys  (\ref{fig:usecase} pav.) Pateikiamas pagrindinis scenarijus ir alternatyvūs.
+	Šioje dokumento dalyje yra pateikiamos sistemos atliekamos užduotys  (2 pav.) Pateikiamas pagrindinis scenarijus ir alternatyvūs.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\linewidth]{img/UseCaseDiagram.png}
@@ -848,8 +848,8 @@
 	\subsection{Užduotis - Registruotis}
 	Skyriuje pateikiamas užduoties registruotis aprašymas.\\
 	\textbf{Užduotis:}  Registruotis \\
-	\textbf{Scenarijus:} Naudotojas prisijungimo lange paspaudžia mygtuką registruotis. Sistema atidaro registracijos langą. Naudotojas suveda prisijungimo vardą, slaptažodį, pakartonai slaptažodį, el. paštą (visi laukai privalomi), spaudžia registruotis. Sistema patikrina įvestus duomenis ir pateikia pranešimą apie sėkmingą registraciją.\\
-	\textbf{Alternatyvūs scenarijai:}\\
+	\textbf{Scenarijus:} Naudotojas prisijungimo lange paspaudžia mygtuką registruotis. Sistema atidaro registracijos langą. Naudotojas suveda prisijungimo vardą, slaptažodį, pakartotinai slaptažodį, el. paštą (visi laukai privalomi), spaudžia registruotis. Sistema patikrina įvestus duomenis ir pateikia pranešimą apie sėkmingą registraciją.\\
+	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas neįvedė bent vieno iš privalomų laukų, sistema išmeta pranešimą, jog privaloma užpildyti visus laukus.
 		\item Jei naudotojo įvestas el. pašto adresas jau egzistuoja sistemoje, pastaroji išmeta pranešimą apie jau egzistuojantį el. pašto adresą.
@@ -862,12 +862,11 @@
 	\subsection{Užduotis - Prisijungti}
 	Skyriuje pateikiamas užduoties prisijungti aprašymas.\\
 	\textbf{Užduotis:}  Prisijungti \\
-	\textbf{Scenarijus:} Naudotojas prisijungimo lange savo suveda prisijungimo vardą ir slaptažodį spaudžia prisijungti. Sistema patikrina ar prisijungimo duomenys teisingi ir nukreipia į naudotojo pagrindinį langą. \\
+	\textbf{Scenarijus:} Naudotojas prisijungimo lange suveda prisijungimo vardą ir slaptažodį spaudžia prisijungti. Sistema patikrina ar prisijungimo duomenys teisingi ir nukreipia naudotoją į pagrindinį puslapį. \\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas neįvedė bent vieno iš privalomų laukų, sistema išmeta pranešimą, jog privaloma užpildyti visus laukus.
-		\item Jei naudotojo įvestas prisijungimo vardas ir slaptažodis nesutampa su jokiais duomenimis sistemoje, pastaroji išmeta pranešimą apie klaidingai suvestus duomenis.
-		\item Jei naudotojas neužbaigęs registracijos paspaudžia atšaukti, sistema neišsaugo duomenų ir grąžina naudotoją į prisijungimo langą. 
+		\item Jei naudotojo įvestas prisijungimo vardas arba slaptažodis nesutampa su duomenimis sistemoje, pastaroji išmeta pranešimą apie klaidingai suvestus duomenis.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 3]
 	
@@ -878,7 +877,7 @@
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas išjungė sistemą neatsijungęs, sistema atjungia vartotoją automatiškai. 
-		\item Jei naudotojo nepavyko atjungti, sistema išmeta pranešimą, jog nepavyko atjungti naudotojo. 
+		\item Jei naudotojo atjungti nepavyko, sistema išmeta pranešimą, jog  atjungti naudotojo nepavyko. 
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 4]
 	
@@ -896,7 +895,7 @@
 	\subsection{Užduotis - Peržiūrėti aukcionus}
 	Skyriuje pateikiamas užduoties peržiūrėti aukcionus aprašymas.\\
 	\textbf{Užduotis:}  Peržiūrėti aukcionus \\
-	\textbf{Scenarijus:} Kiekvienas sistemos naudotojas pagrindiniame puslapyje mato visus aktyvius aukcionus išrykiuotus pagal didėjantį aukciono likusį laiką. Sistemos administratorius mato ne tik aktyvius, bet ir pasibaigusius aukcionus. Prisijungęs naudotojas mato mygtuką daugiau informacijos. \\
+	\textbf{Scenarijus:} Kiekvienas sistemos naudotojas pagrindiniame puslapyje mato visus aktyvius aukcionus išrykiuotus pagal didėjantį aukciono likusį laiką. Sistemos administratorius mato ne tik aktyvius, bet ir pasibaigusius aukcionus. Prisijungęs naudotojas mato mygtuką „daugiau informacijos“. \\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei sistemoje nėra nei vieno aktyvaus aukciono, pagrindiniame puslapyje skelbiamas pranešimas, jog aktyvių aukcionių šiuo metu nėra. 
@@ -906,7 +905,7 @@
 	\subsection{Užduotis - Sukurti aukcioną}
 	Skyriuje pateikiamas užduoties sukurti aukcioną aprašymas.\\
 	\textbf{Užduotis:}  Sukurti aukcioną \\
-	\textbf{Scenarijus:}  Prisijungęs naudotojas spaudžia mygtuką prekės įkėlimas. Sistema atidaro prekės įkėlimo/aukciono sukūrimo formą. Naudotojas suveda duomenis apie prekę: pavadinimas, aprašymas, pradinė suma, aukciono laikas, įkelia nuotraukas. Suvedęs visus duomenis naudotojas spaudžia patvirtinti. Sistema patikrina duomenis, išmeta pranešimą apie aukciono sukūrimą ir atidaro sukurtą aukcioną.\\
+	\textbf{Scenarijus:}  Prisijungęs naudotojas spaudžia mygtuką prekės įkėlimas. Sistema atidaro prekės įkėlimo/aukciono sukūrimo formą. Naudotojas suveda duomenis apie prekę: pavadinimą, aprašymą, pradinę sumą, aukciono trukmę, įkelia nuotraukas. Suvedęs visus duomenis naudotojas spaudžia patvirtinti. Sistema patikrina duomenis, išmeta pranešimą apie aukciono sukūrimą ir atidaro sukurtą aukcioną.\\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas neužpildė kažkurio lauko sistema išmeta klaidos pranešimą su prašymu užpildyti visus laukus. 
@@ -918,10 +917,10 @@
 	\subsection{Užduotis - Pateikti statymą}
 	Skyriuje pateikiamas užduoties pateikti statymą aprašymas.\\
 	\textbf{Užduotis:}  Pateikti statymą \\
-	\textbf{Scenarijus:}  Prisijungęs naudotojas pasirinkęs norimą aktyvų aukcioną spaudžia statyti. Sistema atidaro kainos laukelį. Naudotojas suveda norimą sumą, kuri yra ne didesnė nei jo turimi pinigai sąskaitoje ir nemažesnė, nei paskutinis statymas, ir spaudžia patvirtinti. Sistema patikrina duomenis ir išmeta pranešimą apie sėkmingai pateiktą statymą. \\
+	\textbf{Scenarijus:}  Prisijungęs naudotojas pasirinkęs norimą aktyvų aukcioną spaudžia statyti. Sistema atidaro kainos laukelį. Naudotojas suveda norimą sumą, kuri yra ne didesnė nei jo turimų pinigų suma sąskaitoje ir nemažesnė, nei paskutinis statymas, ir spaudžia patvirtinti. Sistema patikrina duomenis ir išmeta pranešimą apie sėkmingai pateiktą statymą. \\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
-		\item Jei naudotojo įvesta kaina yra didesnė, nei jo turimi pinigai sąskaitoje, sistema išmeta pranešimą, jog įvesta suma yra per didelė, nei jo turimi pinigai. 
+		\item Jei naudotojo įvesta kaina yra didesnė, nei jo turimi pinigai sąskaitoje, sistema išmeta pranešimą, jog įvesta suma yra didesnė, nei jo turimų pinigų suma. 
 		\item Jei naudotojo įvesta kaina yra mažesnė, nei kito naudotojo pasiūlyta arba mažesnė nei pradinė kaina, sistema išmeta pranešimą, jog pasiūlyta kaina yra mažesnė, nei jau esanti prekės kaina. 
 		\item Jei kainos laukelis nebuvo užpildytas, sistema išmeta pranešimą, jog privaloma užpildyti visus laukus. 
 		\item Jei statymo nepavyko užregistruoti, išmetamas klaidos pranešimas, jog įvyko klaida ir statymas nebuvo užfiksuotas. 
@@ -943,7 +942,7 @@
 	\subsection{Užduotis - Priimti statymą}
 	Skyriuje pateikiamas užduoties priimti statymą aprašymas.\\
 	\textbf{Užduotis:}  Priimti statymą \\
-	\textbf{Scenarijus:}  Pasibaigus aukciono laikui naudotojui atsiunčiamas pranešimas su didžiausio statymo verte, bei stačiusiojo duomenimis. Naudotojas spaudžia peržiūrėti. Sistema atidaro aukciono puslapį su visa informacija, vartotojas spaudžia patvirtinti kaip pasibaigusį.  \\
+	\textbf{Scenarijus:}  Pasibaigus aukciono laikui naudotojui atsiunčiamas pranešimas su didžiausio statymo verte bei stačiusiojo duomenimis. Naudotojas spaudžia peržiūrėti. Sistema atidaro aukciono puslapį su visa informacija, vartotojas spaudžia patvirtinti kaip pasibaigusį.  \\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei pasibaigus aukcionui, prekė nebuvo nupirkta, sistema atsiunčia pranešimą su siūlymu atnaujinti aukcioną. 
@@ -986,7 +985,7 @@
 	\subsection{Užduotis - Koreguoti aukcionus}
 	Skyriuje pateikiamas užduoties koreguoti aukcionus aprašymas.\\
 	\textbf{Užduotis:}  Koreguoti aukcionus \\
-	\textbf{Scenarijus:} Prisijungusiam sistemos administratoriui pateikiamas visų aukcionų sąrašas. Administratorius pasirenka dominantį aukcioną. Sistema atidaro visą informaciją apie aukcioną Spaudžia mygtuką pašalinti arba užšaldyti, sistema atidaro papildomą langą su priežastimis ir laiko pasirinkimu (jei užšaldomas). Administratorius užpildo laukus ir spaudžia patvirtinti. Sistema išmeta pranešimą apie sėkmingai užšaldytą/panaikintą aukcioną.\\
+	\textbf{Scenarijus:} Prisijungusiam sistemos administratoriui pateikiamas visų aukcionų sąrašas. Administratorius pasirenka dominantį aukcioną. Sistema atidaro visą informaciją apie aukcioną. Administratorius spaudžia mygtuką pašalinti arba užšaldyti, sistema atidaro papildomą langą su priežastimis ir laiko pasirinkimu (jei užšaldomas). Administratorius užpildo laukus ir spaudžia patvirtinti. Sistema išmeta pranešimą apie sėkmingai užšaldytą/panaikintą aukcioną.\\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei sistemai nepavyko pašalinti aukciono arba jo užšaldyti, sistema išmeta klaidos pranešimą ir grąžina administratorių į aukcionų sąrašą. 
@@ -1019,7 +1018,7 @@
 	Skyriuje pateikiama reikalavimų - užduočių atsekamumo matrica. Parodoma, kokios užduotys dalyvauja funkcinių reikalavimų įgyvendinime.\\
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\linewidth]{img/matrix.png}
+		\includegraphics[width=0.85\textwidth]{img/matrix.png}
 		\label{fig:matrix}
 		\caption{Reikalavimų - užduočių atsekamumo matrica}
 	\end{figure}
@@ -1027,7 +1026,7 @@
 	\newpage
 	
 	\section{Robastiškumo analizė}
-	Šioje dokumentoje dalyje yra pateikiami robastiškumo analzės diagramos kiekvienai aprašytai užduočiai.
+	Šioje dokumentoje dalyje yra pateikiami robastiškumo analizės diagramos kiekvienai aprašytai užduočiai.
 	\subsection{Registracija}
 		\begin{figure}[H]
 		\centering
@@ -1161,13 +1160,13 @@
 		\caption{Vidinių sistemos komponentų UML diagrama}
 	\end{figure}
 	
-	Vidinių sistemos komponentų diagramoje galime matyti detalesnį sistemos vaizdą. Aukciono sistemos klientas turi du kertinius komponentus - grafinę vartojo sąsają bei kliento valdiklį. Grafinė vartotojo sąsaja atsakinga už komunikaviją su sistemos vartotoju bei šios informacijos perdavimą kliento valdikliui, kuris yra atsakingas už tolimesnę komunikaciją su aukciono sistemos serveriu.
+	Vidinių sistemos komponentų diagramoje galime matyti detalesnį sistemos vaizdą. Aukciono sistemos klientas turi du kertinius komponentus - grafinę vartojo sąsają bei kliento valdiklį. Grafinė vartotojo sąsaja atsakinga už komunikaciją su sistemos vartotoju bei šios informacijos perdavimą kliento valdikliui, kuris yra atsakingas už tolimesnę komunikaciją su aukciono sistemos serveriu.
 	
-	Aukciono sistemos serveris sudarytas iš trijų kertinių komponentų - serverio valdiklio, vartotojų valdymo posistemės bei aukcionų valdymo posistemės. Serverio valdiklis yra atsakingas už komunikaciją su aukciono sistemos klientais bei kontroliuoja serverio posistemių darbą. Vartotojų valdymo posistemė yra atsakinga už vartotojų informacijos valdymą. Šiam tikslui yra komunikuojama išoriniu duoemnų bazės komponentu. Aukcionų valdymo posistemė yra atsakinga už aukcionų informacijos valdymą bei komunikaciją su išorine duomenų baze.
+	Aukciono sistemos serveris sudarytas iš trijų kertinių komponentų - serverio valdiklio, vartotojų valdymo posistemės bei aukcionų valdymo posistemės. Serverio valdiklis yra atsakingas už komunikaciją su aukciono sistemos klientais bei kontroliuoja serverio posistemių darbą. Vartotojų valdymo posistemė yra atsakinga už vartotojų informacijos valdymą. Šiam tikslui yra komunikuojama išoriniu duomenų bazės komponentu. Aukcionų valdymo posistemė yra atsakinga už aukcionų informacijos valdymą bei komunikaciją su išorine duomenų baze.
 	
 	\newpage
 	
-	\subsection{komponentų išsidėstymas tinkle}
+	\subsection{Komponentų išsidėstymas tinkle}
 	Apžvelgiami tinkle išsidėstę sistemos komponentai.
 	\begin{figure}[H]
 		\centering
@@ -1176,12 +1175,12 @@
 		\caption{Sistemos komponentų išsidėstymo tinkle UML diagrama}
 	\end{figure}
 	
-	Aukciono sistemos duomenys yra saugojami MySQL duomenų bazėje. Šie duomenys TCP/IP protokolu yra pasiekiami aukciono sistemos serveriui. Aukciono sistemos klientai gali komunikuoti su serveriu pasitelkiant HTTPS protokolą. Vartotojas savo įrenginyje aukcionų sistemą gali pasiekti per internetinį tinklapį. Šis internetis tinklapis per grafinę vartotojo sąsają įgalina vartotoją komunikuoti su vartotojų valdymo bei auckionų valdymo posistemėmis.
+	Aukciono sistemos duomenys yra saugojami MySQL duomenų bazėje. Šie duomenys TCP/IP protokolu yra pasiekiami aukciono sistemos serveriui. Aukciono sistemos klientai gali komunikuoti su serveriu pasitelkiant HTTPS protokolą. Vartotojas savo įrenginyje aukcionų sistemą gali pasiekti per internetinį tinklapį. Šis internetinis tinklapis per grafinę vartotojo sąsają įgalina vartotoją komunikuoti su vartotojų valdymo bei aukcionų valdymo posistemėmis.
 	
 	\newpage
 	
 	\sectionnonum{REZULTATAI}
-	Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai.
+	Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai. Atlikta užduočių robastiškumo analizė bei apibrėžta sistemos techninė architektūra.
 	\newpage
 	
 	\sectionnonum{PERŽIŪROS METU RASTOS KLAIDOS}
