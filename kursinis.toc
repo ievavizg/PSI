@@ -94,44 +94,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.}Robastiškumo analizė}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Registracija}{23}
+\contentsline {section}{\numberline {6.}TECHNINĖ ARCHITEKTŪRA}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Prisijungti}{23}
+\contentsline {subsection}{\numberline {6.1.}Išoriniai komponentai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.}Atsijungti}{24}
+\contentsline {subsection}{\numberline {6.2.}Vidiniai komponentai}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.}Pakeisti slaptažodį}{24}
+\contentsline {subsection}{\numberline {6.3.}Komponentų išsidėstymas tinkle}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.}Peržiūrėti aukcionus}{24}
+\contentsline {section}{REZULTATAI}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.}Sukurti aukcioną}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7.}Pateikti statymą}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.8.}Koreguoti aukcioną}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.9.}Priimti statymą}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.10.}Įvertinti pardavėją}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.11.}Peržiūrėti narius}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.12.}Koreguoti naudotojų sąrašą}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.13.}Koreguoti aukcionus}{28}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.14.}Peržiūrėti taisykles}{28}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.15.}Papildyti sąskaitą}{29}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}TECHNINĖ ARCHITEKTŪRA}{30}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Išoriniai komponentai}{30}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}Vidiniai komponentai}{31}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.}Komponentų išsidėstymas tinkle}{32}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{33}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{34}
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{33}
