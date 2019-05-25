@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: kursinis.aux
-I found no \citation commands---while reading file kursinis.aux
-I found no \bibdata command---while reading file kursinis.aux
-I found no \bibstyle command---while reading file kursinis.aux
-(There were 3 error messages)
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'kursinis.blg'
+[38] biber-MSWIN64:313> INFO - === 
+[94] Biber.pm:371> INFO - Reading 'kursinis.bcf'
+[300] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[315] Utils.pm:169> WARN - The file 'kursinis.bcf' does not contain any citations!
+[330] bbl.pm:617> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
+[330] bbl.pm:720> INFO - Output to kursinis.bbl
+[333] Biber.pm:110> INFO - WARNINGS: 1

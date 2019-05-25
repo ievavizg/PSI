@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  25 MAY 2019 13:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  25 MAY 2019 14:59
 entering extended mode
-**./kursinis.tex
-(kursinis.tex
+**C:/Users/eglyt/Desktop/PSI/kursinis.tex
+(C:/Users/eglyt/Desktop/PSI/kursinis.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 76 language(s) loaded.
 (VUMIFPSkursinis.cls
@@ -1516,7 +1516,14 @@ File: img/taisykles.png Graphic file (type bmp)
 <img/taisykles.png>
 File: img/saskaita.png Graphic file (type bmp)
 <img/saskaita.png>
- [27] [28] [29]
+ [27] [28]
+C:/Users/eglyt/Desktop/PSI/kursinis.tex:1173: Extra alignment tab has been chan
+ged to \cr
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[29]
 File: img/umlComponentDiagramExternal.png Graphic file (type bmp)
 <img/umlComponentDiagramExternal.png>
  [30]
@@ -1534,12 +1541,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25263 strings out of 427835
- 481043 string characters out of 3152454
+ 25264 strings out of 427835
+ 481122 string characters out of 3152454
  985351 words of memory out of 3000000
  28898 multiletter control sequences out of 15000+200000
  543198 words of font info for 88 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,12n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,12n,96p,10567b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (34 pages).
+Output written on kursinis.xdv (34 pages, 466284 bytes).
