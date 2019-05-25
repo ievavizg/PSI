@@ -72,7 +72,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.}Užduotis - Sukurti aukcioną}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.}Užduotis - Pateikti statymą}{19}
+\contentsline {subsection}{\numberline {4.7.}Užduotis - Pateikti statymą}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.8.}Užduotis - Koreguoti aukcioną}{19}
 \defcounter {refsection}{0}\relax 
@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.14.}Užduotis - Peržiūrėti taisykles}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.15.}Užduotis - Papildyti sąskaitą}{22}
+\contentsline {subsection}{\numberline {4.15.}Užduotis - Papildyti sąskaitą}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.16.}Reikalavimų - užduočių atsekamumo matrica}{22}
 \defcounter {refsection}{0}\relax 
@@ -102,14 +102,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.}Užduoties „Atsijungti” testavimo scenarijai}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{31}
+\contentsline {subsection}{\numberline {6.4.}Užduoties „Peržiūrėti aukcionus” testavimo scenarijai}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{32}
+\contentsline {subsection}{\numberline {6.5.}Užduoties „Sukurti aukcioną” testavimo scenarijai}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{33}
+\contentsline {subsection}{\numberline {6.6.}Užduoties „Pateikti statymą” testavimo scenarijai}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{34}
+\contentsline {subsection}{\numberline {6.7.}Užduoties „Koreguoti aukcioną” testavimo scenarijai}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{35}
+\contentsline {subsection}{\numberline {6.8.}Užduoties „Peržiūrėti taisykles” testavimo scenarijai}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{36}
+\contentsline {subsection}{\numberline {6.9.}Užduoties „Papildyti sąskaitą” testavimo scenarijai}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{REZULTATAI}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{41}

@@ -908,7 +908,6 @@
 	\begin{enumerate}
 		\item Jei naudotojas neužpildė kažkurio lauko sistema išmeta klaidos pranešimą su prašymu užpildyti visus laukus.
 		\item Jei naudotojas uždarė langą arba paspaudė atšaukti, jokie įvesti duomenys neišsaugojami, naudotojas grąžinamas į pagrindinį puslapį.
-		\item Jei nepavyko atnaujinti aukciono sistema išmeta klaidos pranešimą, jog nepavyko sukurti aukciono, bei grąžina naudotoją į pagrindinį puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 8]
 
@@ -920,8 +919,6 @@
 	\begin{enumerate}
 		\item Jei naudotojo įvesta kaina yra didesnė, nei jo turimi pinigai sąskaitoje, sistema išmeta pranešimą, jog įvesta suma yra didesnė, nei jo turimų pinigų suma.
 		\item Jei naudotojo įvesta kaina yra mažesnė, nei kito naudotojo pasiūlyta arba mažesnė nei pradinė kaina, sistema išmeta pranešimą, jog pasiūlyta kaina yra mažesnė, nei jau esanti prekės kaina.
-		\item Jei kainos laukelis nebuvo užpildytas, sistema išmeta pranešimą, jog privaloma užpildyti visus laukus.
-		\item Jei statymo nepavyko užregistruoti, išmetamas klaidos pranešimas, jog įvyko klaida ir statymas nebuvo užfiksuotas.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
 
@@ -931,8 +928,6 @@
 	\textbf{Scenarijus:}  Prisijungęs naudotojas atsidaro savo profilį, kur gali matyti visus tik jo paties sukurtus aukcionus, pasirenka aukcioną, kurį nori koreguoti, spaudžia mygtuką redaguoti. Atidaromas aukciono langas. Naudotojas gali pakeisti pavadinimą, aprašymą, pradinę kainą, jei dar nėra įvykdytų statymų šiame aukcione, pridėti arba pakeisti nuotraukas. Pakeitęs norimus laukus naudotojas spaudžia patvirtinti. Sistema patikrina duomenis ir informuoja apie sėkmingai atnaujintą aukcioną, grąžina naudotoją į jo profilį.  \\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
-		\item Jei naudotojas neužpildė kažkurio lauko sistema išmeta klaidos pranešimą su prašymu užpildyti visus laukus.
-		\item Jei nepavyko atnaujinti aukciono sistema išmeta klaidos pranešimą, jog nepavyko atnaujinti aukciono, bei grąžina naudotoją į jo profilio puslapį.
 		\item Jei naudotojas uždarė langą arba paspaudė atšaukti, jokie įvesti duomenys neišsaugojami, naudotojas grąžinamas į jo profilio puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
@@ -1161,7 +1156,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Naudotojas sukurtas ir atidaromas pagrindinis langas. Pagrindiniame lange rodoma tai, ką gali pasiekti naudotojas.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1189,7 +1184,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Išmetamas klaidos pranešimas, kad toks naudotojas jau egzistuoja.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1223,7 +1218,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Išmetamas klaidos pranešimas, kad toks naudotojas jau egzistuoja.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1246,7 +1241,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Atidaromas pagrindinis puslapis.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1280,7 +1275,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Atidaromas pagrindinis langas. Pagrindiniame lange rodoma tai, ką gali pasiekti naudotojas.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1293,7 +1288,7 @@
 			{TS02.02}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
-			{Neįvesti visi prisijungimo duomenys}\\
+			{Neįvesti visi reikalingi prisijungimo duomenys}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
 			{Atidarytas prisijungimo langas, sukurtas naudotojas su duomenis (prisijungimo vardas - test\_user, slaptažodis - test123).}\\
@@ -1314,7 +1309,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|p{6cm}|p{11cm}|}
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1342,7 +1337,7 @@
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Išmetamas klaidos pranešimas, kad prisijungimo duomenys neteisingi.}\\
 			\hline
-			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 			{Eglė Puodžiūnaitė}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1370,9 +1365,9 @@
 		{1. Spausti mygtuką atsijungti.}\\
 		\hline
 		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
-		{Naudotojas atjungimas nuo sistemos ir atidaromas pagrindinis aplikacijos puslapis.}\\
+		{Naudotojas atjungiamas nuo sistemos ir atidaromas pagrindinis aplikacijos puslapis.}\\
 		\hline
-		\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+		\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
 		{Eglė Puodžiūnaitė}\\
 		\hline
 		\multicolumn{1}{|c|}{{\bfseries Statusas}}&
@@ -1396,9 +1391,432 @@
 		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 		{Išjungus aplikaciją naudotojas yra automatiškai atjungiamas.}\\
 		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+		{Eglė Puodžiūnaitė}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+		{Sėkmingas}\\
+		\hline
 	\end{tabular}
 	\label{atsijungimas}
 \end{table}	
+
+			\subsection{Užduoties „Peržiūrėti aukcionus” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Peržiūrėti aukcionus” testavimo scenarijai. (\ref{perziura} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Peržiūrėti aukcionus” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS04.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkminga aukcionų peržiūra}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas pagrindinis langas, sukurtas bent vienas aktyvus aukcionas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Pagrindiniame puslapyje matomi visi aktyvūs aukcionai.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS04.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Tuščias aukcionų sąrašas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas pagrindinis langas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Rodomas pranešimas, kad aukcionų šiuo metu nėra.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+		\end{tabular}
+		\label{perziura}
+	\end{table}	
+
+			\subsection{Užduoties „Sukurti aukcioną” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Sukurti aukcioną” testavimo scenarijai. (\ref{sukurimas} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Sukurti aukcioną” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS05.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkmingas aukciono sukūrimas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aukciono sukūrimo langas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti pavadinimą, aprašymą, pradinę sumą, aukciono trukmę.
+			 2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{Laikrodis, 'naujas, prabandus laikrodis', 100eur, 7dienos.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas pranešimas apie sėkmingą aukciono sukūrimą ir atidaromas sukurto aukciono puslapis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS05.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Nepateikta visa informacija apie aukcioną}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aukciono sukūrimo langas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti pavadinimą, pradinę sumą.
+			 2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\end{tabular}
+		\label{sukurimas}
+	\end{table}	
+	\begin{table}[H]
+			\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{Laikrodis, 7dienos.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, jog reikia užpildyti visus privalomus laukus.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS05.03}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Atšauktas aukciono kūrimas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aukciono sukūrimo langas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Paspausti mygtuką atšaukti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Atidaromas pagrindinis aplikacijos puslapis, naujas aukcionas nėra sukuriamas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+		\end{tabular}
+	\end{table}	
+
+		\subsection{Užduoties „Pateikti statymą” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Pateikti statymą” testavimo scenarijai. (\ref{statymas} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Pateikti statymą” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS06.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkmingas aukciono sukūrimas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aktyvaus aukciono puslapis, kurio prekė šiuo metu verta mažiau nei 90eur, turima 100eurų sąskaitoje.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti siūlomą kainą.
+			2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{90eur.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas pranešimas apie sėkmingą kainos statyma, o aukciono prekės kaina pakeliama iki 90eur.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS06.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Įvesta siūloma kaina didesnė, negu pinigų suma naudotojo sąskaitoje}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aktyvaus aukciono puslapis, kurio prekė šiuo metu verta mažiau nei 90eur, turima 0eurų sąskaitoje.}\\
+			\hline
+		\end{tabular}
+		\label{statymas}
+	\end{table}	
+	\begin{table}[H]
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti siūlomą kainą.
+				2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{90eur.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, pranešantis, kad sąskaitoje nėra pakankamai pinigų.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS06.03}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Siūloma permaža kaina}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas aktyvaus aukciono puslapis, kurio prekė šiuo metu verta daugiau nei 90eur, turima 100eurų sąskaitoje.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti siūlomą kainą.
+				2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{70eur.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, pranešantis, kad prekė yra brangesnė, nei naudotojo siūloma pinigų suma.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+		\end{tabular}
+	\end{table}	
+
+		\subsection{Užduoties „Koreguoti aukcioną” testavimo scenarijai}
+Šiame skyriuje pateikiami užduoties „Koreguoti aukcioną” testavimo scenarijai. (\ref{koregavimas} lentelė)
+\begin{table}[H]
+	\caption{Užduoties „Koreguoti aukcioną” testavimo scenarijai.}
+	\begin{tabular}{|p{6cm}|p{11cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries ID}}&
+		{TS07.01}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+		{Sėkmingas aukciono koregavimas}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+		{Prisijungta prie aplikacijos, sukurtas aukcionas, atidarytas sukurto aukciono redagavimo puslapis.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+		{1. Įvesti pakeistą prekės pavadinimą.
+			2. Spausti mygtuką patvirtinti.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+		{Geras laikrodis}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+		{Išmetamas pranešimas apie sėkmingai autnaujintą aukcioną, naudotojas grąžinamas į profilio puslapį.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+		{Eglė Puodžiūnaitė}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+		{Sėkmingas}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{2}{|c|}{}\\
+		\hline				
+		\end{tabular}
+	\label{koregavimas}
+	\end{table}	
+	\begin{table}[H]
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries ID}}&
+		{TS07.02}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+		{Aukciono redagavimo atšaukimas}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+		{Prisijungta prie aplikacijos, sukurtas aukcionas, atidarytas sukurto aukciono redagavimo puslapis.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+		{1. Spausti mygtuką atšaukti.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+		{Naudotojas yra grąžinamas į profilio puslapį, o nauji duomenys nėra išsaugomi.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+		{Eglė Puodžiūnaitė}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+		{Sėkmingas}\\
+		\hline		
+	\end{tabular}
+\end{table}	
+	
+		\subsection{Užduoties „Peržiūrėti taisykles” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Peržiūrėti taisykles” testavimo scenarijai. (\ref{taisykles} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Peržiūrėti taisykles” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS08.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkminga taisyklių peržiūra}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas taisyklių puslapis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Taisyklių puslapyje pateikiamos aukciono taisyklės.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline				
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS07.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Nesėkminga taisyklių peržiūra}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas pagrindinis aplikacijos puslapis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Spausti mygtuką taisyklės.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, jog nepavyko atidaryti taisyklių puslapio, naudotojas yra grąžinamas į pagrindinį puslapį.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline		
+		\end{tabular}
+		\label{taisykles}
+	\end{table}	
+
+	\subsection{Užduoties „Papildyti sąskaitą” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Papildyti sąskaitą” testavimo scenarijai. (\ref{papildymas} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Papildyti sąskaitą” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS09.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkmingas sąskaitos papildymas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas sąskaitos papildymo langas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvedama pinigų suma.
+				2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{100eur}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas pranešimas apie sėkmingai papildytą sąskaitą, o suma sąskaitoje padidėja 100eur.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline				
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS09.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Nesėkmingas sąskaitos papildymas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Prisijungta prie aplikacijos, atidarytas sąskaitos papildymo langas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvedama pinigų suma.
+				2. Spausti mygtuką patvirtinti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{100eur}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas apie nesėkmingai papildytą sąskaitą, o suma sąskaitoje nepakinta.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline		
+		\end{tabular}
+		\label{papildymas}
+	\end{table}	
+	
 
 	\section{TECHNINĖ ARCHITEKTŪRA}
 	Šiame skyriuje pateikiama techninė sistemos architektūra. Apžvelgiamas komponentų išsidėstymas, jų pasiskirstymas vykdymo aplinkose.

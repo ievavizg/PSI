@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  25 MAY 2019 17:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  25 MAY 2019 18:42
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1471,13 +1471,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 859--860
 File: img/matrix.png Graphic file (type bmp)
 <img/matrix.png>
 
-Underfull \hbox (badness 1132) in paragraph at lines 1016--1022
+Underfull \hbox (badness 1132) in paragraph at lines 1011--1017
 []\TU/texgyretermes(0)/m/n/12 Skyriuje pateikiama reikalavimų - užduočių atseka
 mumo matrica. Parodoma, kokios
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1017
 
  []
 
@@ -1516,17 +1516,17 @@ File: img/taisykles.png Graphic file (type bmp)
 <img/taisykles.png>
 File: img/saskaita.png Graphic file (type bmp)
 <img/saskaita.png>
- [27] [28] [29] [30]
+ [27] [28] [29] [30] [31] [32] [33] [34] [35]
 File: img/umlComponentDiagramExternal.png Graphic file (type bmp)
 <img/umlComponentDiagramExternal.png>
- [31] [32]
+ [36]
+[37]
 File: img/umlComponentDiagram.png Graphic file (type bmp)
 <img/umlComponentDiagram.png>
- [33]
+ [38]
 File: img/umlNetworkComponentDiagram.png Graphic file (type bmp)
 <img/umlNetworkComponentDiagram.png>
- [34] [35] [36]
-(kursinis.aux)
+ [39] [40] [41] (kursinis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1535,12 +1535,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25266 strings out of 427835
- 481086 string characters out of 3152454
+ 25272 strings out of 427835
+ 481153 string characters out of 3152454
  985351 words of memory out of 3000000
- 28901 multiletter control sequences out of 15000+200000
+ 28907 multiletter control sequences out of 15000+200000
  543198 words of font info for 88 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,12n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (36 pages).
+Output written on kursinis.pdf (41 pages).
