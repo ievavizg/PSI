@@ -66,7 +66,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.}Užduotis - Atsijungti}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Užduotis - Pakeisti slaptažodį}{18}
+\contentsline {subsection}{\numberline {4.4.}Užduotis - Pakeisti slaptažodį}{17}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.}Užduotis - Peržiūrėti aukcionus}{18}
 \defcounter {refsection}{0}\relax 
@@ -76,13 +76,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.8.}Užduotis - Koreguoti aukcioną}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.}Užduotis - Priimti statymą}{20}
+\contentsline {subsection}{\numberline {4.9.}Užduotis - Priimti statymą}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.10.}Užduotis - Įvertinti pardavėją}{20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.11.}Užduotis - Peržiūrėti narius}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.}Užduotis - Koreguoti naudotojų sąrašą}{21}
+\contentsline {subsection}{\numberline {4.12.}Užduotis - Koreguoti naudotojų sąrašą}{20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.13.}Užduotis - Koreguoti aukcionus}{21}
 \defcounter {refsection}{0}\relax 
@@ -98,14 +98,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.}Užduoties „Registruotis” testavimo scenarijai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{30}
+\contentsline {subsection}{\numberline {6.2.}Užduoties „Prisijungti” testavimo scenarijai}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{30}
+\contentsline {subsection}{\numberline {6.3.}Užduoties „Atsijungti” testavimo scenarijai}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{31}
+\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{32}
+\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{33}
+\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{34}
+\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{REZULTATAI}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{36}

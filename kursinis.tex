@@ -848,13 +848,12 @@
 	\subsection{Užduotis - Registruotis}
 	Skyriuje pateikiamas užduoties registruotis aprašymas.\\
 	\textbf{Užduotis:}  Registruotis \\
-	\textbf{Scenarijus:} Naudotojas prisijungimo lange paspaudžia mygtuką registruotis. Sistema atidaro registracijos langą. Naudotojas suveda prisijungimo vardą, slaptažodį, pakartotinai slaptažodį, el. paštą (visi laukai privalomi), spaudžia registruotis. Sistema patikrina įvestus duomenis ir pateikia pranešimą apie sėkmingą registraciją.\\
+	\textbf{Scenarijus:} Naudotojas prisijungimo lange paspaudžia mygtuką registruotis. Sistema atidaro registracijos langą. Naudotojas suveda vardą, pavardę,  el. paštą, prisijungimo vardą, adresą, slaptažodį (visi laukai privalomi), spaudžia registruotis. Sistema patikrina įvestus duomenis ir pateikia pranešimą apie sėkmingą registraciją.\\
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas neįvedė bent vieno iš privalomų laukų, sistema išmeta pranešimą, jog privaloma užpildyti visus laukus.
 		\item Jei naudotojo įvestas el. pašto adresas jau egzistuoja sistemoje, pastaroji išmeta pranešimą apie jau egzistuojantį el. pašto adresą.
 		\item Jei naudotojo įvestas prisijungimo vardas jau egzistuoja sistemoje, pastaroji išmeta pranešimą apie jau egzistuojantį sistemos naudotoją su tokiu prisijungimo vardu.
-		\item Jei naudotojo įvestas slaptažodis ir pakartotinas slaptažodis nesutampa, sistema išmeta pranešimą apie nesutampančius įvestus slaptažodžius.
 		\item Jei naudotojas neužbaigęs registracijos paspaudžia atšaukti, sistema neišsaugo duomenų ir grąžina naudotoją į prisijungimo langą.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 2]\\
@@ -877,7 +876,6 @@
 	\textbf{Alternatyvūs scenarijai:}
 	\begin{enumerate}
 		\item Jei naudotojas išjungė sistemą neatsijungęs, sistema atjungia vartotoją automatiškai.
-		\item Jei naudotojo atjungti nepavyko, sistema išmeta pranešimą, jog  atjungti naudotojo nepavyko.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 4]
 
@@ -1139,26 +1137,26 @@
 	Šiame skyriuje pateikiami užduočių pagrindu sudaryti testavimo scenarijai, apimantys pagrindinį ir alternatyviuosius scenarijus.
 
 	\subsection{Užduoties „Registruotis” testavimo scenarijai}
-	Šiame skyriuje pateikiami užduoties „Registruotis” testavimo scenarijai.
+	Šiame skyriuje pateikiami užduoties „Registruotis” testavimo scenarijai. (\ref{registracija} lentelė)
 	\begin{table}[H]
-		\caption{Funkciniai reikalavimai. Internetinės svetainės langai.}
+		\caption{Užduoties „Registruotis” testavimo scenarijai.}
 		\begin{tabular}{|p{6cm}|p{11cm}|}
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries ID}}&
 			{TS01.01}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
-			{Sėkminga kliento registracija}\\
+			{Sėkminga naudotojo registracija}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
-			{1. Atidarytas registracijos langas.}\\
+			{Atidarytas registracijos langas.}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
-			{1. Įvesti vardą, pavardę, el.paštą, slapyvardį, adresą ir slaptažodį.
+			{1. Įvesti vardą, pavardę, el.paštą, prisijungimo vardą, adresą ir slaptažodį.
 			 2. Spausti mygtuką registruotis.}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
-			{Vardenis Pavardenis, test@gmail.com, test\_client, Naugarduko g. 24-40, test123}\\
+			{Vardenis Pavardenis, test@gmail.com, test\_user, Naugarduko g. 24-40, test123}\\
 			\hline
 			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
 			{Naudotojas sukurtas ir atidaromas pagrindinis langas. Pagrindiniame lange rodoma tai, ką gali pasiekti naudotojas.}\\
@@ -1170,11 +1168,237 @@
 			{Sėkmingas}\\
 			\hline
 			\rowcolor{lightgray}
-			\multicolumn{2}{|c|}{}&
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS01.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Registracija su egzistuojančiu el. paštu}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas registracijos langas, sukurtas naudotojas su el. paštu test@gmail.com}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti vardą, pavardę, el.paštą, prisijungimo vardą, adresą ir slaptažodį.
+			 2. Spausti mygtuką registruotis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{Vardenis Pavardenis, test@gmail.com, test\_user, Naugarduko g. 24-40, test123}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, kad toks naudotojas jau egzistuoja.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS01.03}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Registracija su egzistuojančiu prisijungimo vardu}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas registracijos langas, sukurtas naudotojas su prisijungimo vardu test\_user}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti vardą, pavardę, el.paštą, prisijungimo vardą, adresą ir slaptažodį.
+			 2. Spausti mygtuką registruotis.}\\
+			\hline
+		\end{tabular}
+		\label{registracija}
+	\end{table}			
+	\begin{table}[H]
+			\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{Vardenis Pavardenis, test@gmail.com, test\_user, Naugarduko g. 24-40, test123}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, kad toks naudotojas jau egzistuoja.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS01.04}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Registracijos nutraukimas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas registracijos langas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Spausti mygtuką atšaukti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Atidaromas pagrindinis puslapis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
 			\hline
 		\end{tabular}
 	\end{table}
-	\newpage
+
+	\subsection{Užduoties „Prisijungti” testavimo scenarijai}
+	Šiame skyriuje pateikiami užduoties „Prisijungti” testavimo scenarijai. (\ref{prisijungimas} lentelė)
+	\begin{table}[H]
+		\caption{Užduoties „Prisijungti” testavimo scenarijai.}
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS02.01}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Sėkmingas naudotojo prisijungimas}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas prisijungimo langas, sukurtas naudotojas su duomenis (prisijungimo vardas - test\_user, slaptažodis - test123).}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti prisijungimo vardą ir slaptažodį.
+			 2. Spausti mygtuką prisijungti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{test\_user, test123}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Atidaromas pagrindinis langas. Pagrindiniame lange rodoma tai, ką gali pasiekti naudotojas.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS02.02}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Neįvesti visi prisijungimo duomenys}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas prisijungimo langas, sukurtas naudotojas su duomenis (prisijungimo vardas - test\_user, slaptažodis - test123).}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti prisijungimo vardą.
+			 2. Spausti mygtuką prisijungti.}\\
+		 	\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{test\_user}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, jog privaloma užpildyti visus prisijungimo laukus.}\\
+			\hline
+			\end{tabular}
+		\label{prisijungimas}
+	\end{table}	
+	\begin{table}[H]
+		\begin{tabular}{|p{6cm}|p{11cm}|}
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+			\rowcolor{lightgray}
+			\multicolumn{2}{|c|}{}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries ID}}&
+			{TS02.03}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+			{Prisijungimas su neteisingais prisijungimo duomenimis.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+			{Atidarytas prisijungimo langas, sukurtas naudotojas su duomenis (prisijungimo vardas - test\_user, slaptažodis - test123}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+			{1. Įvesti prisijungimo vardą ir slaptažodį.
+			 2. Spausti mygtuką prisijungti.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Siūlomi duomenys}}&
+			{test\_user, test}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+			{Išmetamas klaidos pranešimas, kad prisijungimo duomenys neteisingi.}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+			{Eglė Puodžiūnaitė}\\
+			\hline
+			\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+			{Sėkmingas}\\
+			\hline
+		\end{tabular}
+	\end{table}	
+
+	\subsection{Užduoties „Atsijungti” testavimo scenarijai}
+Šiame skyriuje pateikiami užduoties „Atsijungti” testavimo scenarijai. (\ref{atsijungimas} lentelė)
+\begin{table}[H]
+	\caption{Užduoties „Atsijungti” testavimo scenarijai.}
+	\begin{tabular}{|p{6cm}|p{11cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries ID}}&
+		{TS03.01}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+		{Sėkmingas naudotojo atsijungimas}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+		{Prisijungta prie aplikacijos.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+		{1. Spausti mygtuką atsijungti.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+		{Naudotojas atjungimas nuo sistemos ir atidaromas pagrindinis aplikacijos puslapis.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vydytojas}}&
+		{Eglė Puodžiūnaitė}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Statusas}}&
+		{Sėkmingas}\\
+		\hline
+		\rowcolor{lightgray}
+		\multicolumn{2}{|c|}{}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries ID}}&
+		{TS03.02}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Pavadinimas}}&
+		{Atsijungimas išjungiant aplikaciją}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Sąlygos prieš vykdymą}}&
+		{Prisijungta prie aplikacijos.}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Vykdomi žingsniai}}&
+		{1. Išjungti aplikaciją neatsijungus. 2. Įjungti aplikaciją}\\
+		\hline
+		\multicolumn{1}{|c|}{{\bfseries Laukiamas rezultatas}}&
+		{Išjungus aplikaciją naudotojas yra automatiškai atjungiamas.}\\
+		\hline
+	\end{tabular}
+	\label{atsijungimas}
+\end{table}	
 
 	\section{TECHNINĖ ARCHITEKTŪRA}
 	Šiame skyriuje pateikiama techninė sistemos architektūra. Apžvelgiamas komponentų išsidėstymas, jų pasiskirstymas vykdymo aplinkose.
