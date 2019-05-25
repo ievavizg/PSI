@@ -94,14 +94,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.}Robastiškumo analizė}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}TECHNINĖ ARCHITEKTŪRA}{29}
+\contentsline {section}{\numberline {6.}TESTAVIMO PLANAS IR SCENARIJAI}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Išoriniai komponentai}{29}
+\contentsline {subsection}{\numberline {6.1.}Užduoties „Registruotis” testavimo scenarijai}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}Vidiniai komponentai}{30}
+\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.}Komponentų išsidėstymas tinkle}{31}
+\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{32}
+\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{33}
+\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{REZULTATAI}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{34}

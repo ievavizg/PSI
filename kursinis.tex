@@ -35,7 +35,7 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
-\papertype{Programų sistemų inžinerijos II laboratorinis darbas}
+\papertype{Programų sistemų inžinerijos III laboratorinis darbas}
 \title{Internetinis aukcionas}
 \titleineng{Digital Auction}
 \status{2 kurso 4 grupės studentai}
@@ -57,7 +57,7 @@
 	\setcounter{page}{2}
 	\sectionnonum{ANOTACIJA}
 	Šiame dokumente sistema analizuojama taikant ICONIX metodą. Pateikiami funkciniai ir nefunkciniai reikalavimai, apibrėžiamas struktūrinis dalykinės srities modelis. Taip pat aprašomos sistemoje atliekamos užduotys, analizuojami pagrindiniai ir alternatyvūs užduočių scenarijai. Apibrėžiama
-	techninė kuriamos sistemos architektūra bei atliekama užduočių robastiškumo analizė. Rašant šį dokumentą buvo naudojamasi:
+	techninė kuriamos sistemos architektūra, testavimo planas ir scenarijai bei atliekama užduočių robastiškumo analizė. Rašant šį dokumentą buvo naudojamasi:
 	\\1. dr. Vytauto Valaičio internetiniu puslapiu (https://klevas.mif.vu.lt/~valaitis/)
 	\\2. doc., dr. Karolio Petrausko internetiniu puslapiu (http://klevas.mif.vu.lt/~karolis/)
 	\\3. Latex programa
@@ -68,17 +68,17 @@
 	
 	\sectionnonum{ĮVADAS}
 	Internetinis aukcionas kuriamas siekiant išplėsti dalyvavimą aukcionuose nuotoliniu
-	būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti aukcionuose bet kuriuo paros metu. Dokumente pateikiamas pagrindinis programos funkcionalumas ir tam tikri ribojimai jos kūrimui. Pasitelkiant ICONIX metodą sudaromi užduočių scenarijai, apibrėžiamos pagrindinės kuriamos sistemos esybės, reikalavimai, atliekama robastiškumo analizė bei sudaromas struktūrinis dalykinės srities modelis. Šis dokumentas padeda toliau projektuoti ir nuspręsti, kaip sistema turėtų būti įgyvendinta.
+	būdu. Tinklalapis suteikia galimybę klientams paprastai ir patogiai dalyvauti aukcionuose bet kuriuo paros metu. Dokumente pateikiamas pagrindinis programos funkcionalumas ir tam tikri ribojimai jos kūrimui. Pasitelkiant ICONIX metodą sudaromi užduočių scenarijai, apibrėžiamos pagrindinės kuriamos sistemos esybės, reikalavimai, testavimo planas ir scenarijai, atliekama robastiškumo analizė bei sudaromas struktūrinis dalykinės srities modelis. Šis dokumentas padeda toliau projektuoti ir nuspręsti, kaip sistema turėtų būti įgyvendinta.
 	\\\textbf{Dalykinė sritis}
 	\\Internetinis aukcionas.
 	\\\textbf{Probleminė sritis} 
 	\\Internetinis aukcionas suteiktų galimybę greitai ir paprastai dalyvauti aukcionuose.
 	\\\textbf{Darbo pagrindas}
-	\\Dokumentas parengtas kaip Programų sistemų inžinerijos II dalies II laboratorinis darbas.
+	\\Dokumentas parengtas kaip Programų sistemų inžinerijos II dalies III laboratorinis darbas.
 	\\\textbf{Darbo užduotys}
 	\\1. Patikslinti funkcinius ir nefunkcinius reikalavimus.
-	\\2. Atlikti robastiškumo analizę.
-	\\3. Apibrėžti sistemos techninę architektūrą.
+	\\2. Patikslinti sistemos techninę architektūrą.
+	\\3. Apibrėžti testavimo planą ir scenarijus.
 	\newpage
 	\section{FUNKCINIAI REIKALAVIMAI}
 	Šiame skyriuje pateikiami funkciniai reikalavimai – nagrinėjami scenarijai, ką sistema turi daryti, kaip elgtis vienu ar kitu atveju.
@@ -556,7 +556,7 @@
 			\multicolumn{4}{|c|}{Programavimo kalbos reikalvimai}\\				
 			\hline
 			\multicolumn{2}{|c|}{NFR 2.1}&
-			{Programa kuriama Javascript programavimo kalba.}&		
+			{Programa kuriama Javascript ir Python programavimo kalbomis.}&		
 			\multicolumn{1}{c|}{Būtina}\\
 			\hline
 		\end{tabular}		
@@ -1132,8 +1132,13 @@
 		\label{fig:sask}
 		\caption{Sąskaitos papildymo robastiškumo diagrama}
 	\end{figure}
+
+	\newpage
 	
+	\section{TESTAVIMO PLANAS IR SCENARIJAI}	
+	Šiame skyriuje pateikiami užduočių pagrindu sudaryti testavimo scenarijai, apimantys pagrindinį ir alternatyviuosius scenarijus.
 	
+	\subsection{Užduoties „Registruotis” testavimo scenarijai}
 	\newpage
 	
 	\section{TECHNINĖ ARCHITEKTŪRA}
@@ -1180,7 +1185,7 @@
 	\newpage
 	
 	\sectionnonum{REZULTATAI}
-	Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai. Atlikta užduočių robastiškumo analizė bei apibrėžta sistemos techninė architektūra.
+	Sistema išanalizuota taikant ICONIX metodą. Pateikti funkciniai ir nefunkciniai reikalavimai, apibrėžtas struktūrinis dalykinės srities modelis. Taip pat aprašytos sistemoje atliekamos užduotys, išanalizuoti pagrindiniai ir alternatyvūs užduočių scenarijai. Atlikta užduočių robastiškumo analizė, apibrėžta sistemos techninė architektūra bei, testavimo planas ir scenarijai.
 	\newpage
 	
 	\sectionnonum{PERŽIŪROS METU RASTOS KLAIDOS}
