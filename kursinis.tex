@@ -857,6 +857,13 @@
 		\item Jei naudotojas neužbaigęs registracijos paspaudžia atšaukti, sistema neišsaugo duomenų ir grąžina naudotoją į prisijungimo langą.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 2]\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/registerSequence.png}
+		\label{fig:registracija}
+		\caption{Užduoties registruotis sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Prisijungti}
 	Skyriuje pateikiamas užduoties prisijungti aprašymas.\\
@@ -868,6 +875,13 @@
 		\item Jei naudotojo įvestas prisijungimo vardas arba slaptažodis nesutampa su duomenimis sistemoje, pastaroji išmeta pranešimą apie klaidingai suvestus duomenis.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 3]
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/logInSequence.png}
+		\label{fig:prisijungimas}
+		\caption{Užduoties prisijungti sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Atsijungti}
 	Skyriuje pateikiamas užduoties atsijungti aprašymas.\\
@@ -878,6 +892,13 @@
 		\item Jei naudotojas išjungė sistemą neatsijungęs, sistema atjungia vartotoją automatiškai.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 4]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/logOffSequence.png}
+		\label{fig:atsijungti}
+		\caption{Užduoties atsijungti sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Pakeisti slaptažodį}
 	Skyriuje pateikiamas užduoties pakeisti slaptažodį aprašymas.\\
@@ -889,6 +910,13 @@
 		\item Jei naudotojo slaptažodžio nepavyko pakeisti, sistema išmeta pranešimą, jog slaptažodžio pakeisti nepavyko.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 5]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/changePasswordSequence.png}
+		\label{fig:slaptazodis}
+		\caption{Užduoties pakeisti slaptažodį sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Peržiūrėti aukcionus}
 	Skyriuje pateikiamas užduoties peržiūrėti aukcionus aprašymas.\\
@@ -899,6 +927,13 @@
 		\item Jei sistemoje nėra nei vieno aktyvaus aukciono, pagrindiniame puslapyje skelbiamas pranešimas, jog aktyvių aukcionių šiuo metu nėra.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 7], [FR10]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/auctionsSequence.png}
+		\label{fig:aukcionai}
+		\caption{Užduoties peržiūrėti aukcionus sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Sukurti aukcioną}
 	Skyriuje pateikiamas užduoties sukurti aukcioną aprašymas.\\
@@ -910,6 +945,14 @@
 		\item Jei naudotojas uždarė langą arba paspaudė atšaukti, jokie įvesti duomenys neišsaugojami, naudotojas grąžinamas į pagrindinį puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 8]
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/addAuctionSequence.png}
+		\label{fig:sukurti}
+		\caption{Užduoties sukurti aukcioną sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Pateikti statymą}
 	Skyriuje pateikiamas užduoties pateikti statymą aprašymas.\\
@@ -921,6 +964,14 @@
 		\item Jei naudotojo įvesta kaina yra mažesnė, nei kito naudotojo pasiūlyta arba mažesnė nei pradinė kaina, sistema išmeta pranešimą, jog pasiūlyta kaina yra mažesnė, nei jau esanti prekės kaina.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/bettingSequence.png}
+		\label{fig:statymas}
+		\caption{Užduoties pateikti statymą sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Koreguoti aukcioną}
 	Skyriuje pateikiamas užduoties koreguoti aukcioną aprašymas.\\
@@ -931,6 +982,13 @@
 		\item Jei naudotojas uždarė langą arba paspaudė atšaukti, jokie įvesti duomenys neišsaugojami, naudotojas grąžinamas į jo profilio puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/editAuctionSequence.png}
+		\label{fig:koregavimas}
+		\caption{Užduoties koreguoti aukcioną sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Priimti statymą}
 	Skyriuje pateikiamas užduoties priimti statymą aprašymas.\\
@@ -942,6 +1000,13 @@
 		\item Jei naudotojas nepatvirtino aukciono sėkmingos pabaigos, sistema apriboją naudotojo veiksmus, kol aukcionas nebus patvirtintas kaip pabaigtas.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/finishAuctionSequence.png}
+		\label{fig:takebet}
+		\caption{Užduoties patvirtinti aukciono užbaigimą sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Įvertinti pardavėją}
 	Skyriuje pateikiamas užduoties įvertinti pardavėją statymą aprašymas.\\
@@ -953,6 +1018,13 @@
 		\item Jei naudotojas uždarė langą arba paspaudė atšaukti, jokie įvesti duomenys neišsaugojami, naudotojas grąžinamas į jo profilio puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 9]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/evaluateSellerSequence.png}
+		\label{fig:ivertinimas}
+		\caption{Užduoties įvertinti pardavėją sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Peržiūrėti narius}
 	Skyriuje pateikiamas užduoties peržiūrėti narius aprašymas.\\
@@ -963,6 +1035,13 @@
 		\item Jei sistemai nepavyko parodyti kito nario profilio, sistema išmeta klaidos pranešimą ir grąžina naudotoją į pagrindinį puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 11]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/viewSellerSequence.png}
+		\label{fig:narys}
+		\caption{Užduoties peržiūrėti narius sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Koreguoti naudotojų sąrašą}
 	Skyriuje pateikiamas užduoties koreguoti naudotojų sąrašą aprašymas.\\
@@ -974,6 +1053,14 @@
 		\item Jei administratorius nepasirinko priežasties ir/arba laiko, sistema išmeta pranešimą apie privalomus užpildyti laukus.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 11]
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/editUsersAdminSequence.png}
+		\label{fig:salinti}
+		\caption{Užduoties koreguoti naudotojų sąrašą sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Koreguoti aukcionus}
 	Skyriuje pateikiamas užduoties koreguoti aukcionus aprašymas.\\
@@ -985,6 +1072,14 @@
 		\item Jei administratorius nepasirinko priežasties ir/arba laiko, sistema išmeta pranešimą apie privalomus užpildyti laukus.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 10]
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/editAuctionAdminSequence.png}
+		\label{fig:aukckoreg}
+		\caption{Užduoties koreguoti aukcionus sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Peržiūrėti taisykles}
 	Skyriuje pateikiamas užduoties peržiūrėti taisykles aprašymas.\\
@@ -995,6 +1090,13 @@
 		\item Jei sistemai nepavyko atidaryti taisyklių lango, sistema išmeta klaidos pranešimą ir grąžina naudotoją į pagrindinį puslapį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 6]
+	
+			\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/rulesSequence.png}
+		\label{fig:taisykles}
+		\caption{Užduoties peržiūrėti taisykles sekų diagrama}
+	\end{figure}
 
 	\subsection{Užduotis - Papildyti sąskaitą}
 	Skyriuje pateikiamas užduoties papildyti sąskaitą aprašymas.\\
@@ -1006,6 +1108,14 @@
 		\item Jei sistemai nepavyko papildyti sąskaitos, sistema išmeta klaidos pranešimą ir grąžina naudotoją į jo profilį.
 	\end{enumerate}
 	\textbf{Nuoroda į reikalavimą: } [FR 12]
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{img/fillAccountSequence.png}
+		\label{fig:sask}
+		\caption{Užduoties papildyti sąskaitą sekų diagrama}
+	\end{figure}
 
 	\subsection{Reikalavimų - užduočių atsekamumo matrica}
 	Skyriuje pateikiama reikalavimų - užduočių atsekamumo matrica. Parodoma, kokios užduotys dalyvauja funkcinių reikalavimų įgyvendinime.\\
@@ -1014,116 +1124,6 @@
 		\includegraphics[width=0.85\textwidth]{img/matrix.png}
 		\label{fig:matrix}
 		\caption{Reikalavimų - užduočių atsekamumo matrica}
-	\end{figure}
-
-	\newpage
-
-	\section{Robastiškumo analizė}
-	Šioje dokumentoje dalyje yra pateikiamos robastiškumo analizės diagramos kiekvienai aprašytai užduočiai. Kiekviena diagrama parodo vartotojo sąveika su sistema  bei įvarius galimus scenarijus.
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/registracija.png}
-		\label{fig:registracija}
-		\caption{Registracijos puslapio robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/prisijungimas.png}
-		\label{fig:prisijungimas}
-		\caption{Prisijungimo puslapio robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/atsijungimas.png}
-		\label{fig:atsijungti}
-		\caption{Atsijungimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/slaptazodis.png}
-		\label{fig:slaptazodis}
-		\caption{Slaptažodžio keitimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/aukcionai.png}
-		\label{fig:aukcionai}
-		\caption{Aukcionų peržiūrėjimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/sukurti.png}
-		\label{fig:sukurti}
-		\caption{Aukciono sukūrimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/statymas.png}
-		\label{fig:statymas}
-		\caption{Statymo pateikimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/koreguoti.png}
-		\label{fig:koregavimas}
-		\caption{Aukciono koregavimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/patvirtinti.png}
-		\label{fig:takebet}
-		\caption{Aukciono užbaigimo patvirtinimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/ivertinimas.png}
-		\label{fig:ivertinimas}
-		\caption{Pardavėjo įvertinimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/nariai.png}
-		\label{fig:narys}
-		\caption{Narių peržiūrėjimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/pasalinti.png}
-		\label{fig:salinti}
-		\caption{Naudotojų sąrašo koregavimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/aukcpasalinti.png}
-		\label{fig:aukckoreg}
-		\caption{Aukciono koregavimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/taisykles.png}
-		\label{fig:taisykles}
-		\caption{Taisyklių peržiūrėjimo robastiškumo diagrama}
-	\end{figure}
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=\linewidth]{img/saskaita.png}
-		\label{fig:sask}
-		\caption{Sąskaitos papildymo robastiškumo diagrama}
 	\end{figure}
 
 	\newpage

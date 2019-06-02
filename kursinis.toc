@@ -64,64 +64,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.}Užduotis - Prisijungti}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Užduotis - Atsijungti}{17}
+\contentsline {subsection}{\numberline {4.3.}Užduotis - Atsijungti}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Užduotis - Pakeisti slaptažodį}{17}
+\contentsline {subsection}{\numberline {4.4.}Užduotis - Pakeisti slaptažodį}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.}Užduotis - Peržiūrėti aukcionus}{18}
+\contentsline {subsection}{\numberline {4.5.}Užduotis - Peržiūrėti aukcionus}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.}Užduotis - Sukurti aukcioną}{18}
+\contentsline {subsection}{\numberline {4.6.}Užduotis - Sukurti aukcioną}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.}Užduotis - Pateikti statymą}{18}
+\contentsline {subsection}{\numberline {4.7.}Užduotis - Pateikti statymą}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.}Užduotis - Koreguoti aukcioną}{19}
+\contentsline {subsection}{\numberline {4.8.}Užduotis - Koreguoti aukcioną}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.}Užduotis - Priimti statymą}{19}
+\contentsline {subsection}{\numberline {4.9.}Užduotis - Priimti statymą}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.}Užduotis - Įvertinti pardavėją}{20}
+\contentsline {subsection}{\numberline {4.10.}Užduotis - Įvertinti pardavėją}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.11.}Užduotis - Peržiūrėti narius}{20}
+\contentsline {subsection}{\numberline {4.11.}Užduotis - Peržiūrėti narius}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.}Užduotis - Koreguoti naudotojų sąrašą}{20}
+\contentsline {subsection}{\numberline {4.12.}Užduotis - Koreguoti naudotojų sąrašą}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.13.}Užduotis - Koreguoti aukcionus}{21}
+\contentsline {subsection}{\numberline {4.13.}Užduotis - Koreguoti aukcionus}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.14.}Užduotis - Peržiūrėti taisykles}{21}
+\contentsline {subsection}{\numberline {4.14.}Užduotis - Peržiūrėti taisykles}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.15.}Užduotis - Papildyti sąskaitą}{21}
+\contentsline {subsection}{\numberline {4.15.}Užduotis - Papildyti sąskaitą}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.16.}Reikalavimų - užduočių atsekamumo matrica}{22}
+\contentsline {subsection}{\numberline {4.16.}Reikalavimų - užduočių atsekamumo matrica}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Robastiškumo analizė}{23}
+\contentsline {section}{\numberline {5.}TESTAVIMO PLANAS IR SCENARIJAI}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}TESTAVIMO PLANAS IR SCENARIJAI}{29}
+\contentsline {subsection}{\numberline {5.1.}Užduoties „Registruotis” testavimo scenarijai}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Užduoties „Registruotis” testavimo scenarijai}{29}
+\contentsline {subsection}{\numberline {5.2.}Užduoties „Prisijungti” testavimo scenarijai}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}Užduoties „Prisijungti” testavimo scenarijai}{30}
+\contentsline {subsection}{\numberline {5.3.}Užduoties „Atsijungti” testavimo scenarijai}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.}Užduoties „Atsijungti” testavimo scenarijai}{31}
+\contentsline {subsection}{\numberline {5.4.}Užduoties „Peržiūrėti aukcionus” testavimo scenarijai}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.}Užduoties „Peržiūrėti aukcionus” testavimo scenarijai}{31}
+\contentsline {subsection}{\numberline {5.5.}Užduoties „Sukurti aukcioną” testavimo scenarijai}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.}Užduoties „Sukurti aukcioną” testavimo scenarijai}{32}
+\contentsline {subsection}{\numberline {5.6.}Užduoties „Pateikti statymą” testavimo scenarijai}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.}Užduoties „Pateikti statymą” testavimo scenarijai}{33}
+\contentsline {subsection}{\numberline {5.7.}Užduoties „Koreguoti aukcioną” testavimo scenarijai}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.}Užduoties „Koreguoti aukcioną” testavimo scenarijai}{34}
+\contentsline {subsection}{\numberline {5.8.}Užduoties „Peržiūrėti taisykles” testavimo scenarijai}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.}Užduoties „Peržiūrėti taisykles” testavimo scenarijai}{35}
+\contentsline {subsection}{\numberline {5.9.}Užduoties „Papildyti sąskaitą” testavimo scenarijai}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.}Užduoties „Papildyti sąskaitą” testavimo scenarijai}{35}
+\contentsline {section}{\numberline {6.}TECHNINĖ ARCHITEKTŪRA}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}TECHNINĖ ARCHITEKTŪRA}{36}
+\contentsline {subsection}{\numberline {6.1.}Išoriniai komponentai}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.}Išoriniai komponentai}{36}
+\contentsline {subsection}{\numberline {6.2.}Vidiniai komponentai}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.}Vidiniai komponentai}{38}
+\contentsline {subsection}{\numberline {6.3.}Komponentų išsidėstymas tinkle}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.}Komponentų išsidėstymas tinkle}{39}
+\contentsline {section}{REZULTATAI}{44}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{REZULTATAI}{40}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{41}
+\contentsline {section}{PERŽIŪROS METU RASTOS KLAIDOS}{45}
